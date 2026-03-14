@@ -1,0 +1,153 @@
+\documentclass[13pt, aspectratio=169]{beamer}
+\include{preamble}
+
+\title{STUDI PENGARUH STACKING LAYER DAN VARIASI PARAMETER PADA
+MODEL GRAFENA KANE-MELE}
+\subtitle{Presentasi Proposal Skripsi}
+\author{Akmal Suratmi}
+\institute{Program Studi Fisika, Fakultas Matematika dan Ilmu Pengetahuan Alam, Universitas Hasanuddin}
+\date{\today}
+\begin{document}
+
+\frame{\titlepage}
+\begin{frame}
+\frametitle{Outline}
+\begin{itemize}
+    \item Latar Belakang
+    \item Tujuan Penelitian
+    \item Model Penelitan 
+    \item Metodologi Penelitian
+\end{itemize}
+\end{frame}
+
+\section{Latar Belakang}
+\begin{frame}
+  \frametitle{Krisis Hukum Moore}
+\begin{columns}
+  \column{0.5\textwidth}
+  \begin{coulumn}
+    Limit miniaturisasi dan disipasi pada perangkat elektronik konvensional
+    \begin{image}
+      \includegraphics[width=0.8\textwidth]{picture/disipation_data.jpg}
+    \end{image}
+  \end{coulumn}
+  
+  \column{0.7\textwidth}
+  \begin{image}
+    \includegraphics[width=0.8\textwidth]{picture/disipation_data.jpg.jpg}
+  \end{image}
+\end{columns} 
+\end{frame}
+
+% Solution from spintronics
+\begin{frame}
+\frametitle{Spintronics}
+\begin{columns}
+  \column{0.5\textwidth}
+    \begin{image}
+      \includegraphics[width=0.8\textwidth]{picture/qsh_hallbar.png}
+    \end{image}
+  \column{0.5\textwidth}
+    \begin{image}
+      \includegraphics[width=0.8\textwidth]{picture/qhall-effect.png}
+    \end{image}
+\end{columns}
+\end{frame}
+
+\begin{frame}
+\frametitle{Grafena}
+\begin{columns}
+  \column{0.5\textwidth}
+  \begin{image}
+    \includegraphics[width=0.8\textwidth]{picture/haldane_hoppings.pdf}
+  \end{image}
+  \column{0.5\textwidth}
+  \begin{image}
+    \includegraphics[width=0.8\textwidth]{picture/haldane_hoppings.pdf}
+  \end{image}
+\end{columns}
+\end{frame}
+
+\section{Tujuan Penelitian}
+\begin{frame}
+  \frametitle{Tujuan Penelitian}
+  \begin{enumerate}
+    \small
+  \item  Memperoleh struktur pita ribbon pada model  \textit{stacking} grafena dengan \textit{hopping} antar lapisan yang menunjukkan perilaku efek tepi sistem.
+  \item Memperoleh peta respon sistem  \textit{stacking} grafena terhadap perubahan parameter \textit{hopping} dan potensial kisi lewat analisis sturktur pita, kerapatan energi, dan probabilitas elektron.
+  \item Memperoleh plot evolusi  \textit{ Hybrid Wannier Function Center} terhadap pergerakan ruang momentum searah dengan arah penumpukan lapisan.
+  \item Memvalidasi keberadaan atau ketiadaan \textit{Surface State} pada permukaan grafena \textit{Stacking} dengan analisis perilaku magnetoelektrik atau \textit{Axion Angle}.
+\end{enumerate}
+\begin{itemize}
+
+\end{itemize}
+\end{frame}
+\section{Metodologi Penelitian}
+\begin{frame}
+\frametitle{Struktur Kristal Grafena}
+\begin{columns}[T, onlytextwidth]
+  \begin{column}{0.5\textwidth}
+    \centering
+    \includegraphics[width=\linewidth]{picture/graphene.png}
+  \end{column}
+  \pause
+  \begin{column}{0.5\textwidth}
+    \centering
+    \includegraphics[width=\linewidth]{picture/graphene.png}
+  \end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}{Many-Body pada Sistem Kristal}
+    \begin{columns}[T]
+        \begin{column}{0.5\textwidth}
+            \textbf{Hamiltonian Elektronik Eksplisit:}
+            \begin{equation*}
+                \hat{H}_e = \hat{T}_e + \hat{V}_{en} + \hat{V}_{ee}
+            \end{equation*}
+            \vspace{0.2cm}
+            Suku interaksi Coulomb antar elektron ($\hat{V}_{ee}$) menciptakan korelasi yang sangat kompleks:
+            \begin{equation*}
+                \hat{V}_{ee} = \frac{1}{2} \sum_i \sum_{j \neq i} \frac{1}{|\vec{r}_i - \vec{r}_j|}
+            \end{equation*}
+        \end{column}
+        
+        \begin{column}{0.5\textwidth}
+            \begin{block}{The Curse of Dimensionality}
+                \begin{itemize}
+                    \item Kerapatan elektron pada grafena mencapai $\sim 10^{23}$ per cm$^2$.
+                    \item Menghitung interaksi eksplisit setiap pasangan elektron membutuhkan sumber daya komputasi yang tumbuh secara eksponensial.
+                    \item \textbf{Resolusi:} Diperlukan reduksi dari sistem $N$-partikel menjadi model partikel tunggal efektif.
+                \end{itemize}
+            \end{block}
+        \end{column}
+    \end{columns}
+\end{frame}
+
+\begin{frame}{Pendekatan Tight-Binding (LCAO) pada Grafena}
+    \begin{columns}[T]
+        \begin{column}{0.45\textwidth}
+            \textbf{Lokalisasi Orbital $p_z$}
+            \vspace{0.2cm}
+            % Ganti 'graphene_orbitals.png' dengan file gambar/diagram TikZ kamu
+            % \includegraphics[width=\linewidth]{graphene_orbitals.png}
+            \begin{itemize}
+                \item Ikatan $\sigma$ ($sp^2$) membentuk kerangka mekanik yang kaku.
+                \item Sifat elektronik dekat level Fermi didominasi murni oleh elektron pada orbital $p_z$ (pita $\pi$).
+            \end{itemize}
+        \end{column}
+        
+        \begin{column}{0.55\textwidth}
+            \begin{block}{Hamiltonian Tight-Binding Terreduksi}
+                Mengabaikan interaksi jarak jauh, dinamika elektron disederhanakan menjadi parameter \textit{hopping} terdekat ($t \approx 2.8$ eV):
+                \begin{equation*}
+                    \hat{H}_{TB} = -t \sum_{\langle i,j \rangle, \sigma} \left( c_{i\sigma}^\dagger c_{j\sigma} + h.c. \right)
+                \end{equation*}
+                \vspace{0.1cm}
+                \footnotesize{Di mana $c_{i\sigma}^\dagger$ menciptakan elektron dengan spin $\sigma$ di situs $i$. Model ini menjadi basis fundamental sebelum penambahan suku interaksi intrinsik seperti kopling Spin-Orbit.}
+            \end{block}
+        \end{column}
+    \end{columns}
+\end{frame}
+
+\end{document}
