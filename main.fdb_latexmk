@@ -1,11 +1,11 @@
 # Fdb version 4
-["biber main"] 1773470181.60697 "main.bcf" "main.bbl" "main" 1773471123.23722 0
-  "main.bcf" 1773471122.9046 107256 bbb7563979c1f9afdf84ee4ba713182f "pdflatex"
+["biber main"] 1773817395.65257 "main.bcf" "main.bbl" "main" 1773817886.71887 0
+  "main.bcf" 1773817886.46737 107256 bbb7563979c1f9afdf84ee4ba713182f "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1773471120.90103 "main.tex" "main.pdf" "main" 1773471123.23829 2
+["pdflatex"] 1773817884.45184 "main.tex" "main.pdf" "main" 1773817886.71933 2
   "/etc/texmf/web2c/texmf.cnf" 1769951203.90271 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -229,18 +229,20 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1770373009.9113 198142 16d6a54cbe5ab31460400710ee1222d6 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1770373050 6927472 58be6d351edb2a82f3d26b1c9cc670c3 ""
-  "main.aux" 1773471122.9026 2581 183d5c358ea7ba632479f1529572f08d "pdflatex"
-  "main.bbl" 1773470182.80496 0 d41d8cd98f00b204e9800998ecf8427e "biber main"
-  "main.nav" 1773471122.9067 1519 b6f74f7b608098631b1c4efa6ebda483 "pdflatex"
-  "main.out" 1773471122.9026 398 3d1b328c9618bedc0c0038368979e238 "pdflatex"
-  "main.run.xml" 1773471122.9067 2224 bc6149f5caee4074188e1b81a66978d0 "pdflatex"
-  "main.tex" 1773471120.1796 5655 9485cfee2f8018610edb137d22150d72 ""
+  "main.aux" 1773817886.46537 2966 59c4aa824c47fc0c0028b9f20b1a865f "pdflatex"
+  "main.bbl" 1773817396.52779 0 d41d8cd98f00b204e9800998ecf8427e "biber main"
+  "main.nav" 1773817886.46945 1796 8b2ecf859f2a4d5f7245e0c6545e83ca "pdflatex"
+  "main.out" 1773817886.46637 398 3d1b328c9618bedc0c0038368979e238 "pdflatex"
+  "main.run.xml" 1773817886.46945 2224 bc6149f5caee4074188e1b81a66978d0 "pdflatex"
+  "main.tex" 1773817884.42436 7340 034dfba40c2aeb180fac8a0ae24cc4cb ""
   "picture/disipation_data.jpg" 1772778218.59665 21919 7cb36630ad28eb5abf8feb7ccfcbc068 ""
   "picture/disipation_data.jpg.jpg" 1772778221.49254 18770 cb73b2d211292baab8598205faa86a47 ""
   "picture/graphene.png" 1772779631.05959 63063 6a984944c308da8ff44fb5ad67928a72 ""
   "picture/haldane_hoppings.pdf" 1773469895.15187 13369 64ec2eaf5becdd48608ffa67d9d03a6c ""
+  "picture/hall.png" 1773816458.83107 38390 35c2f3c613108841d798c0391c091348 ""
   "picture/qhall-effect.png" 1772779343.78653 124007 ae9e20ec139f3843fac762e266212687 ""
   "picture/qsh_hallbar.png" 1772779249.18685 16934 b70754f9e42125ec04cc7578618ee2cd ""
+  "picture/stacking_layer.png" 1773817296.06801 57252 ed3c4bd8784bb699c19bea651b8b8f76 ""
   "preamble.tex" 1772760520.21272 233 60151c5506fc53e27b02ccdac5756f27 ""
   (generated)
   "main.aux"

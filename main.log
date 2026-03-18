@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.2.6)  14 MAR 2026 14:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.2.6)  18 MAR 2026 15:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1297,6 +1297,153 @@ Overfull \hbox (90.8287pt too wide) has occurred while \output is active
 [10
 
 ]
+Overfull \hbox (90.8287pt too wide) in paragraph at lines 173--173
+ [][][][] []  
+ []
+
+<picture/hall.png, id=198, 96.1191pt x 54.9252pt>
+File: picture/hall.png Graphic file (type png)
+<use picture/hall.png>
+Package pdftex.def Info: picture/hall.png  used on input line 173.
+(pdftex.def)             Requested size: 179.25114pt x 102.43886pt.
+
+./main.tex:173: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.173 \end{frame}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./main.tex:173: Missing $ inserted.
+<inserted text> 
+                $
+l.173 \end{frame}
+                 
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./main.tex:173: Display math should end with $$.
+<to be read again> 
+                   \tex_par:D 
+l.173 \end{frame}
+                 
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+
+Overfull \hbox (10.10043pt too wide) detected at line 173
+\OMS/cmsy/m/n/10.95 H[] \OT1/cmss/m/n/10.95 = \OT1/cmss/m/it/10.95 t [] c[]c[] \OT1/cmss/m/n/10.95 + \OT1/cmss/m/it/10.95 i\OML/cmm/m/it/10.95 ^^U[] [] ^^W[]\OT1/cmss/m/it/10.95 c[]s[]c[]
+ []
+
+./main.tex:173: Missing $ inserted.
+<inserted text> 
+                $
+l.173 \end{frame}
+                 
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <10.95> not available
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 173.
+LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <8> not available
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 173.
+LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <6> not available
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 173.
+./main.tex:173: Missing $ inserted.
+<inserted text> 
+                $
+l.173 \end{frame}
+                 
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (90.8287pt too wide) has occurred while \output is active
+ [][][][] []  
+ []
+
+[11
+
+ <./picture/hall.png>]
+Overfull \hbox (90.8287pt too wide) in paragraph at lines 193--193
+ [][][][] []  
+ []
+
+<picture/stacking_layer.png, id=214, 752.8125pt x 392.46625pt>
+File: picture/stacking_layer.png Graphic file (type png)
+<use picture/stacking_layer.png>
+Package pdftex.def Info: picture/stacking_layer.png  used on input line 193.
+(pdftex.def)             Requested size: 179.25114pt x 93.45123pt.
+./main.tex:193: Missing $ inserted.
+<inserted text> 
+                $
+l.193 \end{frame}
+                 
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+./main.tex:193: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.193 \end{frame}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./main.tex:193: Missing $ inserted.
+<inserted text> 
+                $
+l.193 \end{frame}
+                 
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./main.tex:193: Missing $ inserted.
+<inserted text> 
+                $
+l.193 \end{frame}
+                 
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./main.tex:193: Missing $ inserted.
+<inserted text> 
+                $
+l.193 \end{frame}
+                 
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (90.8287pt too wide) has occurred while \output is active
+ [][][][] []  
+ []
+
+[12
+
+ <./picture/stacking_layer.png>]
+Overfull \hbox (90.8287pt too wide) in paragraph at lines 197--197
+ [][][][] []  
+ []
+
+
+Overfull \hbox (90.8287pt too wide) has occurred while \output is active
+ [][][][] []  
+ []
+
+[13
+
+]
 \tf@nav=\write7
 \openout7 = `main.nav'.
 
@@ -1318,18 +1465,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 28490 strings out of 475597
- 556545 string characters out of 5783340
+ 28529 strings out of 475597
+ 557383 string characters out of 5783340
  1938975 words of memory out of 5000000
- 50124 multiletter control sequences out of 15000+600000
- 568847 words of font info for 75 fonts, out of 8000000 for 9000
+ 50157 multiletter control sequences out of 15000+600000
+ 569435 words of font info for 77 fonts, out of 8000000 for 9000
  309 hyphenation exceptions out of 8191
- 101i,19n,107p,677b,943s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,20n,107p,677b,943s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (10 pages, 407892 bytes).
+Output written on main.pdf (13 pages, 478864 bytes).
 PDF statistics:
- 268 PDF objects out of 1000 (max. 8388607)
- 163 compressed objects within 2 object streams
- 24 named destinations out of 1000 (max. 500000)
- 115 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 312 PDF objects out of 1000 (max. 8388607)
+ 189 compressed objects within 2 object streams
+ 30 named destinations out of 1000 (max. 500000)
+ 125 words of extra memory for PDF output out of 10000 (max. 10000000)
 

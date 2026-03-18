@@ -150,4 +150,50 @@ MODEL GRAFENA KANE-MELE}
     \end{columns}
 \end{frame}
 
+\begin{frame}
+  \frametitle{Kane-Mele Model}
+  \begin{columns}[T]
+    \begin{column}{0.45\textwidth}
+      \begin{figure}
+        \includegraphics[width=1.0\textwidth]{picture/hall.png} 
+      \end{figure}
+    \end{column}
+
+    \begin{column}{0.55\textwidth}
+      \begin{block}{Hamiltonian Kane-Mele}
+        $$
+  \mathcal{H}_{\text{KM},l} = t \sum_{\langle i,j \rangle,\sigma} c_{il\sigma}^\dagger c_{jl\sigma} 
++ i\lambda_{\text{SO}} \sum_{\langle\langle i,j \rangle\rangle,\sigma} \nu_{ij} c_{il\sigma}^\dagger s^z_{\sigma\sigma'} c_{jl\sigma'} \\
+    + i\lambda_R \sum_{\langle i,j \rangle, \sigma \sigma'} c_{i\sigma}^\dagger (\mathbf{s} \times \hat{\mathbf{d}_{ij}})^z_{\sigma \sigma'}c_{j\sigma'}
++ \lambda_v \sum_{i,\sigma} \xi_i c_{il\sigma}^\dagger c_{il\sigma}
+      $$
+      \end{block}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\begin{frame}
+  \begin{columns}[T]
+    \begin{column}{0.45\textwidth}
+      \begin{figure}
+        \includegraphics[width=1.0\textwidth]{picture/stacking_layer.png} 
+      \end{figure}
+    \end{column}
+
+    \begin{column}{0.55\textwidth}
+      \begin{block}
+        $$ 
+        \mathcal{H} = \underbrace{\sum_l \mathcal{H}_{\text{KM},l}}_{\text{Intralayer}} 
++ \underbrace{\tau \sum_{\langle l,l' \rangle} \sum_{i,\sigma} c_{il\sigma}^\dagger c_{il'\sigma}}_{\text{Hopping Antarlapisan}} \\
+        + \underbrace{i\lambda_{SO\perp} \sum_{\langle l,l' \rangle} \sum_{i,\sigma,\sigma'} \mu_{ll'} c_{il\sigma}^\dagger s^z_{\sigma\sigma'} c_{il'\sigma'}}_{\text{Kopling Spin-Orbit Antarlapisan}},
+        $$
+      \end{block}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Ekstraksi Nilai Fungsi Eigen}
+\end{frame}
+
 \end{document}
