@@ -194,6 +194,54 @@ MODEL GRAFENA KANE-MELE}
 
 \begin{frame}
   \frametitle{Ekstraksi Nilai Fungsi Eigen}
+  
+  \begin{columns} % Hapus {0.45\textwidth} di sini
+    
+    \begin{column}{0.45\textwidth} % Tambahkan argumen lebar di sini
+      \begin{block}{Schrodinger equation}
+        \[
+        \mathcal{H}\psi(r) = E\psi(r)
+        \]
+      \end{block}
+      
+      \begin{center}
+        \begin{tikzpicture}
+          \draw[->, thick] (0,1) -- (0,0);
+        \end{tikzpicture}
+      \end{center}
+      Spektrum energi, Kerapatan energi, Probabilitas keberadaan elektron
+    \end{column}
+
+    \begin{column}{0.55\textwidth}
+  \centering
+  \begin{tikzpicture}[>=stealth, node distance=1.5cm]
+    % Persamaan Utama (Atas/Pusat)
+    \node (Hamiltonian) at (0,0) {
+      \scalebox{0.8}{$i\lambda_R \sum_{\langle i,j \rangle, \sigma \sigma'} c_{i\sigma}^\dagger (\mathbf{s} \times \hat{\mathbf{d}_{ij}})^z_{\sigma \sigma'}c_{j\sigma'} + \lambda_v \sum_{i,\sigma} \xi_i c_{il\sigma}^\dagger c_{il\sigma}$}
+    };
+
+    % Node Kiri (Kerapatan Energi)
+    \node (Density) at (-2, -2) {
+      \begin{tabular}{c}
+        $D(E) = \sum_{n} \delta(E - E_{n})$ \\
+        \footnotesize Peta kerapatan energi
+      \end{tabular}
+    };
+
+    % Node Kanan (Probabilitas)
+    \node (Prob) at (2, -2) {
+      \begin{tabular}{c}
+        $\ket{\psi_{n}} = \sum_{\alpha} c_{n \alpha}\ket{\phi_{\alpha}}$ \\
+        \footnotesize Peta probabilitas
+      \end{tabular}
+    };
+
+    % Panah bercabang (Pohon Faktor)
+    \draw[->, thick] (Hamiltonian.south) -- (Density.north);
+    \draw[->, thick] (Hamiltonian.south) -- (Prob.north);
+  \end{tikzpicture}
+\end{column}
+  \end{columns}
 \end{frame}
 
 \end{document}
