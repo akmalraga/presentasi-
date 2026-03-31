@@ -244,4 +244,51 @@ MODEL GRAFENA KANE-MELE}
   \end{columns}
 \end{frame}
 
+\begin{frame}
+  \frametitle{Analisis Hybrid Wannier Center}
+  \begin{columns}[T]
+    \begin{column}{0.45\textwidth}
+    Bagaimana mendeteksi $Z_2$?
+    \pause
+    \begin{center}
+      \begin{tikzpicture}
+        \draw[->, thick] (0,1) -- (0,0);
+      \end{tikzpicture}
+    \end{center}
+    
+    Apakah ada perubahan ekspektasi posisi pusat muatan ketika terjadi perubahan dalam ruang momentum. 
+    \pause
+    \vspace{3em}
+    
+    \textcolor{blue}{\textbf{kenapa Hybrid Wannier Center?}}
+    \end{column}
+    \pause
+    \begin{column}{0.55\textwidth}
+      \begin{figure}
+        \includegraphics[width=1.0\textwidth]{picture/transformasi-blochWannier.png}
+      \end{figure}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Analisis Hybrid Wannier Center}
+  \begin{columns}[T]
+    \begin{column}{0.45\textwidth}
+      ada masalah dengan \textit{gauge} pada Wannier centers
+      \pause
+      \[
+        r|w_0 \rangle = \frac{V}{(2\pi)^3} \int_{BZ} dk ( - i \nabla_ke^{ik \cdot r} ) |\psi_k \rangle
+      \]
+    \end{column}
+    \pause
+    \begin{column}{0.55\textwidth}
+      \[
+r|w_0 \rangle = \frac{V}{(2\pi)^3} \int_{BZ} dk ( - i \nabla_ke^{i\beta(k)} ) |\psi_k \rangle \\
+r|w_0 \rangle = \frac{V}{(2\pi)^3} \int_{BZ} dk \quad[( - i (i\nabla_k\beta(k))e^{i\beta(k)} ) |\psi_k \rangle \;   - i e^{i\beta(k)} \nabla_k|\psi_k \rangle] \\ 
+      \]
+    \end{column}
+  \end{columns}
+\end{frame}
+
 \end{document}
