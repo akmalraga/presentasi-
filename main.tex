@@ -31,7 +31,7 @@ MODEL GRAFENA KANE-MELE}
       \includegraphics[width=0.8\textwidth]{picture/disipation_data.jpg}
     \end{image}
   \end{coulumn}
-  
+  \pause
   \column{0.7\textwidth}
   \begin{image}
     \includegraphics[width=0.8\textwidth]{picture/disipation_data.jpg.jpg}
@@ -47,6 +47,7 @@ MODEL GRAFENA KANE-MELE}
     \begin{image}
       \includegraphics[width=0.8\textwidth]{picture/qsh_hallbar.png}
     \end{image}
+    \pause
   \column{0.5\textwidth}
     \begin{image}
       \includegraphics[width=0.8\textwidth]{picture/qhall-effect.png}
@@ -61,6 +62,7 @@ MODEL GRAFENA KANE-MELE}
   \begin{image}
     \includegraphics[width=0.8\textwidth]{picture/haldane_hoppings.pdf}
   \end{image}
+  \pause
   \column{0.5\textwidth}
   \begin{image}
     \includegraphics[width=0.8\textwidth]{picture/haldane_hoppings.pdf}
@@ -106,12 +108,13 @@ MODEL GRAFENA KANE-MELE}
                 \hat{H}_e = \hat{T}_e + \hat{V}_{en} + \hat{V}_{ee}
             \end{equation*}
             \vspace{0.2cm}
+            \pause
             Suku interaksi Coulomb antar elektron ($\hat{V}_{ee}$) menciptakan korelasi yang sangat kompleks:
             \begin{equation*}
                 \hat{V}_{ee} = \frac{1}{2} \sum_i \sum_{j \neq i} \frac{1}{|\vec{r}_i - \vec{r}_j|}
             \end{equation*}
         \end{column}
-        
+       \pause 
         \begin{column}{0.5\textwidth}
             \begin{block}{The Curse of Dimensionality}
                 \begin{itemize}
@@ -136,7 +139,7 @@ MODEL GRAFENA KANE-MELE}
                 \item Sifat elektronik dekat level Fermi didominasi murni oleh elektron pada orbital $p_z$ (pita $\pi$).
             \end{itemize}
         \end{column}
-        
+       \pause 
         \begin{column}{0.55\textwidth}
             \begin{block}{Hamiltonian Tight-Binding Terreduksi}
                 Mengabaikan interaksi jarak jauh, dinamika elektron disederhanakan menjadi parameter \textit{hopping} terdekat ($t \approx 2.8$ eV):
@@ -158,6 +161,7 @@ MODEL GRAFENA KANE-MELE}
         \includegraphics[width=1.0\textwidth]{picture/hall.png} 
       \end{figure}
     \end{column}
+    \pause
 
     \begin{column}{0.55\textwidth}
       \begin{block}{Hamiltonian Kane-Mele}
@@ -197,13 +201,13 @@ MODEL GRAFENA KANE-MELE}
   
   \begin{columns} % Hapus {0.45\textwidth} di sini
     
-    \begin{column}{0.45\textwidth} % Tambahkan argumen lebar di sini
+    \begin{column}{0.45\textwidth}
       \begin{block}{Schrodinger equation}
         \[
         \mathcal{H}\psi(r) = E\psi(r)
         \]
       \end{block}
-      
+     \pause 
       \begin{center}
         \begin{tikzpicture}
           \draw[->, thick] (0,1) -- (0,0);
@@ -211,7 +215,7 @@ MODEL GRAFENA KANE-MELE}
       \end{center}
       Spektrum energi, Kerapatan energi, Probabilitas keberadaan elektron
     \end{column}
-
+\pause
     \begin{column}{0.55\textwidth}
   \centering
   \begin{tikzpicture}[>=stealth, node distance=1.5cm]
@@ -219,7 +223,7 @@ MODEL GRAFENA KANE-MELE}
     \node (Hamiltonian) at (0,0) {
       \scalebox{0.8}{$i\lambda_R \sum_{\langle i,j \rangle, \sigma \sigma'} c_{i\sigma}^\dagger (\mathbf{s} \times \hat{\mathbf{d}_{ij}})^z_{\sigma \sigma'}c_{j\sigma'} + \lambda_v \sum_{i,\sigma} \xi_i c_{il\sigma}^\dagger c_{il\sigma}$}
     };
-
+\pause
     % Node Kiri (Kerapatan Energi)
     \node (Density) at (-2, -2) {
       \begin{tabular}{c}
@@ -227,7 +231,7 @@ MODEL GRAFENA KANE-MELE}
         \footnotesize Peta kerapatan energi
       \end{tabular}
     };
-
+\pause
     % Node Kanan (Probabilitas)
     \node (Prob) at (2, -2) {
       \begin{tabular}{c}
@@ -289,6 +293,208 @@ r|w_0 \rangle = \frac{V}{(2\pi)^3} \int_{BZ} dk \quad[( - i (i\nabla_k\beta(k))e
       \]
     \end{column}
   \end{columns}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Analisis Axion Angel}
+  \begin{columns}
+    \begin{column}{0.5\textwidth}
+      \textcolor{blue}{\textbf{Apakah penumpukan grafena memberikan efek Quantum spin hall yang berbeda dari satu lapisan?}}
+      \pause 
+      \begin{center}
+      \begin{tikzpicture}
+        \draw[->, thick] (0,1) -- (0,0);
+      \end{tikzpicture}
+      \end{center}
+      Sama seperti efek hall dua dimensi yang memiliki efek tepi dimana ada arus pada tepian insulator, material hall tiga dimensi juga seharusnya memiliki efek arus pada tepian. \textbf{Cara untuk mendeteksi fenomena tersebut kita gunakan} \textcolor{blue}{\textbf{Axion Angel}}
+    \end{column}
+    \pause 
+    \begin{column}{0.5\textwidth}
+     \[
+      \boxed{
+\Delta \mathcal{L}_{EM} = \frac{\theta e^2}{2 \pi h}\mathbf{E. B} = \frac{\theta e^2}{16 \pi h} \epsilon^{\alpha \beta \gamma \delta}F_{\alpha \beta } F_{\gamma \delta}
+}
+     \]
+     \vspace{2pt}
+     \pause
+     nilai theta hanya akan berarti ketika dia mengalami perubahan ketika mengalami pumping di ruang momentum.
+    \end{column}
+  \end{columns}
+\end{frame}
+\begin{frame}
+  \frametitle{Analisis Axion Angel}
+  
+  \begin{columns}
+    \begin{column}{0.45\textwidth}
+    \[
+        \theta = \frac{1}{2π} \int_{BZ} d^3k \quad\epsilon_{ijk} \mathbf{Tr}\left[ \mathcal{A}_{i}\partial_{j}\mathcal{A}_{k} - i \frac{2}{3} \mathcal{A}_{i} \mathcal{A}_{j}\mathcal{A}_{k} \right]
+      \]
+       \[ \bar{A}_n (\bar{k}) =  \langle n_k | \nabla_{\bar{R}} | n_k \rangle \]
+      \pause 
+      definisi ini membuat formulasi menjadi \textit{gauge dependent}
+      \pause
+      \[
+        \mathcal{F}_{ij} = \partial_{i}\mathcal{A}_{j} - \partial_{j}\mathcal{A}_{i} - i[\mathcal{A_{i}A_{j}}]
+      \]
+      % arrow
+      \begin{center}
+      \begin{tikzpicture}
+        \draw[->, thick] (0,1) -- (0,0);
+      \end{tikzpicture} 
+      \end{center}
+      \begin{center}
+        \textcolor{blue}{\textbf{Gauge invariant}}
+      \end{center}
+    \end{column}
+    \begin{column}{0.55\textwidth} 
+      \textcolor{blue}{\textbf{Bagaimana cara melihat perubahan theta?}}
+      \pause
+      \[
+        \theta = \frac{1}{16 \pi}\int_{0}^{\beta}d\beta' \int d^3 k\; \epsilon_{ijkl} \mathbf{Tr}[\mathcal{F}_{ij}(\mathbf{k},\beta')\mathcal{F}_{kl}(\mathbf{k},\beta')]
+      \]
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\begin{frame}{Ekstensi Numerik}
+    \begin{itemize}
+        \item Implementasi model sistem memanfaatkan paket \textbf{PythTB 2.0} (Python) \parencite{Cole_Python_Tight_Binding_2025}.
+        \item Dikembangkan khusus untuk mengonstruksi dan menganalisis model \textit{Tight-Binding} pada studi teoritikal material topologis.
+        \item \textbf{Keunggulan:} Mereduksi kode numerik yang panjang menjadi baris singkat, sehingga menghemat waktu dan komputasi.
+        \item \textbf{Empat fungsionalitas utama yang diadopsi:} 
+        \begin{enumerate}
+            \item Konstruksi model
+            \item \textit{State sampling}
+            \item Analisis topologi
+            \item Visualisasi
+        \end{enumerate}
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Struktur dan Fungsionalitas Kode \texttt{PythTB}}
+    \begin{table}
+    \centering
+    % Menyesuaikan ukuran tabel agar pas dengan lebar slide
+    \resizebox{\textwidth}{!}{
+    \begin{tabular}{@{}l l l@{}} 
+    \toprule
+    \textbf{Kode} & \textbf{Fungsi} & \textbf{Keluaran} \\ \midrule
+    \texttt{Model-Hamiltonian.py} & Mengonstruksi model sistem \textit{tight-binding} & Fungsi objek model \\ \addlinespace
+    \texttt{Peta-spektrum.py} & Memetakan pengaruh gangguan terhadap efek tepi & Visualisasi peta spektrum energi \\ \addlinespace
+    \texttt{Peta-prob.py} & Memetakan pengaruh gangguan terhadap probabilitas elektron & Visualisasi distribusi probabilitas \\ \addlinespace
+    \texttt{Dos.py} & Memetakan pengaruh gangguan terhadap \textit{Density of States} & Peta \textit{Density of States} (DOS) \\ \addlinespace
+    \texttt{Hwf.py} & Menganalisis sifat topologi 3D via \textit{Wannier functions} & Plot evolusi \textit{Hybrid Wannier Centers} \\ \addlinespace
+    \texttt{Axion-angle.py} & Menganalisis efek topologi melalui respon magnetoelektrik & Plot nilai $\theta$ terhadap parameter $\beta$ \\ \addlinespace
+    \texttt{Visualisasi.py} & Melakukan pemetaan struktur geometri model & Representasi visual struktur kristal \\ \bottomrule
+    \end{tabular}
+    }
+    \end{table}
+\end{frame}
+
+\begin{frame}{Diagram Alur Penelitian}
+    \begin{figure}
+    \centering
+    % Menyesuaikan tinggi diagram agar tidak melebihi slide Beamer
+    \resizebox{!}{0.85\textheight}{
+    \begin{tikzpicture}[node distance=1.8cm, auto,
+        % Definisi Style Blok
+        startstop/.style={rectangle, rounded corners, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=red!10},
+        process/.style={rectangle, minimum width=4cm, minimum height=1cm, text centered, draw=black, fill=blue!5},
+        decision/.style={diamond, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=green!10, aspect=2},
+        arrow/.style={thick,->,>=stealth},
+        line/.style={thick,-}
+    ]
+
+    % Node - Node
+    \node (start) [startstop] {Mulai};
+    \node (lit) [process, below of=start] {Studi Literatur \& Parameterisasi ($t, \lambda_{SO}, \lambda_R$)};
+    \node (model2d) [process, below of=lit] {Konstruksi Model 2D (Kane-Mele)};
+    \node (stack) [process, below of=model2d] {Stacking Layer (3D Model)};
+    \node (val) [decision, below of=stack, yshift=-0.5cm] {Validasi Efek Tepi?};
+    \node (analisis) [process, below of=val, yshift=-0.5cm] {Analisis Respon Sistem};
+
+    % Percabangan Analisis (Parallel)
+    \node (spektrum) [process, below of=analisis, xshift=-3cm, text width=3.5cm] {Peta Spektrum \& Probabilitas\\(Deteksi \textit{Edge State})};
+    \node (topologi) [process, below of=analisis, xshift=3cm, text width=3.5cm] {Analisis Topologi\\(HWC \& Axion $\theta$)};
+    \node (kesimpulan) [process, below of=analisis, yshift=-3cm] {Interpretasi Fisik \& Kesimpulan};
+    \node (stop) [startstop, below of=kesimpulan] {Selesai};
+
+    % Garis Penghubung
+    \draw [arrow] (start) -- (lit);
+    \draw [arrow] (lit) -- (model2d);
+    \draw [arrow] (model2d) -- (stack);
+    \draw [arrow] (stack) -- (val);
+
+    % Logika Decision
+    \draw [arrow] (val) -- node[anchor=east] {Ya} (analisis);
+    \draw [line] (val.east) -- ++(1.5,0) node[anchor=south] {Tidak};
+    \draw [arrow] ($(val.east)+(1.5,0)$) |- (model2d.east);
+
+    % Percabangan
+    \draw [arrow] (analisis) -| (spektrum);
+    \draw [arrow] (analisis) -| (topologi);
+
+    % Penyatuan Kembali
+    \draw [arrow] (spektrum) |- (kesimpulan);
+    \draw [arrow] (topologi) |- (kesimpulan);
+    \draw [arrow] (kesimpulan) -- (stop);
+
+    \end{tikzpicture}
+    }
+    \end{figure}
+\end{frame}
+
+\begin{frame}{Skema Komputasi Numerik (PythTB)}
+    \begin{figure}
+    \centering
+    % Menyesuaikan lebar diagram agar pas dengan slide
+    \resizebox{!}{0.85\textheight}{
+    \begin{tikzpicture}[node distance=1.5cm,
+        % Definisi Style
+        io/.style={trapezium, trapezium left angle=70, trapezium right angle=110, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=orange!10},
+        process/.style={rectangle, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=cyan!5},
+        subroutine/.style={rectangle, rounded corners, minimum width=3cm, minimum height=1cm, text centered, draw=black, dashed},
+        arrow/.style={thick,->,>=stealth}
+    ]
+
+    % Input
+    \node (param) [io] {Input Parameter ($H_{intralayer}, H_{interlayer}$)};
+
+    % Core Process
+    \node (pythtb) [process, below=0.8cm of param] {\textbf{PythTB Engine}\\(Konstruksi Hamiltonian)};
+
+    % Output Intermediate
+    \node (diag) [process, below=0.8cm of pythtb] {Diagonalisasi Matriks ($H\psi = E\psi$)};
+
+    % Cabang Output
+    \node (dos) [subroutine, below left=1.5cm and -1cm of diag, text width=3cm] {\texttt{Dos.py}\\Hitung Kerapatan Keadaan};
+    \node (band) [subroutine, below=1.5cm of diag, text width=3cm] {\texttt{Peta-spektrum.py}\\Plot Pita Energi};
+    \node (hwf) [subroutine, below right=1.5cm and -1cm of diag, text width=3cm] {\texttt{Hwf.py}\\Hitung Pusat Wannier (HWC)};
+
+    % Final Result
+    \node (visual) [io, below=4.5cm of diag, minimum width=8cm] {Visualisasi Data \& Grafik ($\theta$, $Z_2$, Bandgap)};
+
+    % Garis
+    \draw [arrow] (param) -- (pythtb);
+    \draw [arrow] (pythtb) -- (diag);
+    \draw [arrow] (diag) -| (dos);
+    \draw [arrow] (diag) -- (band);
+    \draw [arrow] (diag) -| (hwf);
+
+    \draw [arrow] (dos) -- (visual.north -| dos);
+    \draw [arrow] (band) -- (visual.north -| band);
+    \draw [arrow] (hwf) -- (visual.north -| hwf);
+
+    \end{tikzpicture}
+    }
+    \end{figure}
+\end{frame}
+
+\begin{frame}
+  % sekian terima kasih
+  \begin{center}
+    \textcolor{blue}{\textbf{Sekian, Terima Kasih}}
+  \end{center}
 \end{frame}
 
 \end{document}
