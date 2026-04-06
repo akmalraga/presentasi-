@@ -1,11 +1,11 @@
 # Fdb version 4
-["biber main"] 1774837955.06547 "main.bcf" "main.bbl" "main" 1775105042.63197 2
-  "main.bcf" 1775105042.19652 107341 b83e2f2510c41da8fe2cfeb760e24653 "pdflatex"
+["biber main"] 1774837955.06547 "main.bcf" "main.bbl" "main" 1775447548.92289 2
+  "main.bcf" 1775447548.57954 107341 b83e2f2510c41da8fe2cfeb760e24653 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1775105037.89354 "main.tex" "main.pdf" "main" 1775105042.63238 2
+["pdflatex"] 1775447545.00956 "main.tex" "main.pdf" "main" 1775447548.9233 2
   "/etc/texmf/web2c/texmf.cnf" 1769951203.90271 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -252,17 +252,16 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1770373009.9113 198142 16d6a54cbe5ab31460400710ee1222d6 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1770373050 6927472 58be6d351edb2a82f3d26b1c9cc670c3 ""
-  "main.aux" 1775105042.19452 4237 b3f39a38193eeafa75789e9980770391 "pdflatex"
+  "main.aux" 1775447548.57654 4105 2a4375e0ee2c6bdbca3d9aa12193c315 "pdflatex"
   "main.bbl" 0 -1 0 "biber main"
-  "main.nav" 1775105042.19843 2641 4479a9cd37367872c17dc32fe664d709 "pdflatex"
-  "main.out" 1775105042.19552 398 3d1b328c9618bedc0c0038368979e238 "pdflatex"
-  "main.run.xml" 1775105042.19843 2224 365b26d2461a7c422220465ea2130593 "pdflatex"
-  "main.tex" 1775105036.43654 19272 51bfbcc7d8e6cde47f9297fbc9c7f880 ""
-  "picture/A(1).png" 1773816444.10907 14439 7c1984a732c8adee99574b53370371fa ""
+  "main.nav" 1775447548.58178 2546 4354aaf69f2c2db35e50d4dcf3089445 "pdflatex"
+  "main.out" 1775447548.57754 398 3d1b328c9618bedc0c0038368979e238 "pdflatex"
+  "main.run.xml" 1775447548.58178 2224 365b26d2461a7c422220465ea2130593 "pdflatex"
+  "main.tex" 1775447543.25654 18936 a92f0dc77a5a9249517258f07feef8c3 ""
   "picture/disipation_data.jpg" 1772778218.59665 21919 7cb36630ad28eb5abf8feb7ccfcbc068 ""
   "picture/disipation_data.jpg.jpg" 1772778221.49254 18770 cb73b2d211292baab8598205faa86a47 ""
-  "picture/graphene.png" 1772779631.05959 63063 6a984944c308da8ff44fb5ad67928a72 ""
-  "picture/haldane_hoppings.pdf" 1773469895.15187 13369 64ec2eaf5becdd48608ffa67d9d03a6c ""
+  "picture/graphene.png" 1775447393.91216 63063 6a984944c308da8ff44fb5ad67928a72 ""
+  "picture/graphene1.png" 1775447334.11782 44112 be0706eb3ac6e4ae4722332cb5ecca1b ""
   "picture/hall.png" 1773816458.83107 38390 35c2f3c613108841d798c0391c091348 ""
   "picture/qhall-effect.png" 1772779343.78653 124007 ae9e20ec139f3843fac762e266212687 ""
   "picture/qsh_hallbar.png" 1772779249.18685 16934 b70754f9e42125ec04cc7578618ee2cd ""
