@@ -1,11 +1,11 @@
 # Fdb version 4
-["biber main"] 1774837955.06547 "main.bcf" "main.bbl" "main" 1775447548.92289 2
-  "main.bcf" 1775447548.57954 107341 b83e2f2510c41da8fe2cfeb760e24653 "pdflatex"
+["biber main"] 1774837955.06547 "main.bcf" "main.bbl" "main" 1775618085.67647 2
+  "main.bcf" 1775618085.27505 107631 434e93d51fe663eda78f033dfb72aded "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1775447545.00956 "main.tex" "main.pdf" "main" 1775447548.9233 2
+["pdflatex"] 1775618081.20541 "main.tex" "main.pdf" "main" 1775618085.67688 2
   "/etc/texmf/web2c/texmf.cnf" 1769951203.90271 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -252,19 +252,20 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1770373009.9113 198142 16d6a54cbe5ab31460400710ee1222d6 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1770373050 6927472 58be6d351edb2a82f3d26b1c9cc670c3 ""
-  "main.aux" 1775447548.57654 4105 2a4375e0ee2c6bdbca3d9aa12193c315 "pdflatex"
+  "main.aux" 1775618085.27305 4616 8b07076d4c5471eb99a6e75cceee33f0 "pdflatex"
   "main.bbl" 0 -1 0 "biber main"
-  "main.nav" 1775447548.58178 2546 4354aaf69f2c2db35e50d4dcf3089445 "pdflatex"
-  "main.out" 1775447548.57754 398 3d1b328c9618bedc0c0038368979e238 "pdflatex"
-  "main.run.xml" 1775447548.58178 2224 365b26d2461a7c422220465ea2130593 "pdflatex"
-  "main.tex" 1775447543.25654 18936 a92f0dc77a5a9249517258f07feef8c3 ""
+  "main.nav" 1775618085.27705 2748 f09ecc8f2ed5e44a7dc0fb92d89c1ef1 "pdflatex"
+  "main.out" 1775618085.27405 398 3d1b328c9618bedc0c0038368979e238 "pdflatex"
+  "main.run.xml" 1775618085.27705 2224 365b26d2461a7c422220465ea2130593 "pdflatex"
+  "main.tex" 1775618079.72002 21507 833272b5cbd46cc398f96cbe14c049d3 ""
   "picture/disipation_data.jpg" 1772778218.59665 21919 7cb36630ad28eb5abf8feb7ccfcbc068 ""
-  "picture/disipation_data.jpg.jpg" 1772778221.49254 18770 cb73b2d211292baab8598205faa86a47 ""
   "picture/graphene.png" 1775447393.91216 63063 6a984944c308da8ff44fb5ad67928a72 ""
   "picture/graphene1.png" 1775447334.11782 44112 be0706eb3ac6e4ae4722332cb5ecca1b ""
+  "picture/haldane_hoppings.pdf" 1773469895.15187 13369 64ec2eaf5becdd48608ffa67d9d03a6c ""
   "picture/hall.png" 1773816458.83107 38390 35c2f3c613108841d798c0391c091348 ""
   "picture/qhall-effect.png" 1772779343.78653 124007 ae9e20ec139f3843fac762e266212687 ""
   "picture/qsh_hallbar.png" 1772779249.18685 16934 b70754f9e42125ec04cc7578618ee2cd ""
+  "picture/road_analogy.pdf" 1775616147.4481 484231 177b80de248d20ae0e6c9c93d9659e7f ""
   "picture/stacking_layer.png" 1773817296.06801 57252 ed3c4bd8784bb699c19bea651b8b8f76 ""
   "picture/transformasi-blochWannier.png" 1774922131.88834 81877 8e6d7c256c76e79da7130a9c157ca438 ""
   "preamble.tex" 1775010213.70361 344 b222a7f8ad9cc3299d4ec1dd991eaa98 ""

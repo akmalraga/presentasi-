@@ -33,9 +33,36 @@ MODEL GRAFENA KANE-MELE}
   \end{coulumn}
   \pause
   \column{0.7\textwidth}
-  \begin{image}
-    \includegraphics[width=0.8\textwidth]{picture/disipation_data.jpg.jpg}
-  \end{image}
+  \begin{coulumn}
+  \centering
+  \begin{tikzpicture}[>=stealth, node distance=1.5cm]
+    % Persamaan Utama (Atas/Pusat)
+    \node (Hamiltonian) at (0,0) {
+      \scalebox{0.8}{\textcolor{blue}{\textbf{Apa yang menyebabkan disipasi panas terjadi?}}
+}
+    };
+\pause
+    % Node Kiri (Kerapatan Energi)
+    \node (Density) at (-2, -2) {
+      \begin{tabular}{c}
+      Kebocoran energi  
+      \end{tabular}
+    };
+\pause
+    % Node Kanan (Probabilitas)
+    \node (Prob) at (2, -2) {
+      \begin{tabular}{c}
+      Panas terkonsentrasi \\ 
+      pada area sempit
+      \end{tabular}
+    };
+
+    % Panah bercabang (Pohon Faktor)
+    \draw[->, thick] (Hamiltonian.south) -- (Density.north);
+    \draw[->, thick] (Hamiltonian.south) -- (Prob.north);
+  \end{tikzpicture}  
+  \end{coulumn}
+    
 \end{columns} 
 \end{frame}
 
@@ -44,15 +71,74 @@ MODEL GRAFENA KANE-MELE}
 \frametitle{Spintronics}
 \begin{columns}
   \column{0.5\textwidth}
+  \textcolor{blue}{\textbf{Disipasi tercipta dari tumbukan elektron dengan kisi kristal.}}
+  \pause
     \begin{image}
-      \includegraphics[width=0.8\textwidth]{picture/qsh_hallbar.png}
+      \includegraphics[width=0.8\textwidth]{picture/road_analogy.pdf}
     \end{image}
     \pause
   \column{0.5\textwidth}
     \begin{image}
-      \includegraphics[width=0.8\textwidth]{picture/qhall-effect.png}
+      \includegraphics[width=0.8\textwidth]{picture/qsh_hallbar.png}
+      \begin{center}
+        \begin{tikzpicture}
+          \draw[->, thick] (0,1) -- (0,0);
+        \end{tikzpicture}
+      \end{center}
+      Degan ini arus akan memiliki arah yang teratur
     \end{image}
 \end{columns}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Urgensi Quantum Spin Hall Effect}
+  \begin{columns}
+    \begin{column}{0.5\textwidth}
+      Bagaimana Spintronics dapat terwujud secara praktis?
+      \pause
+      \begin{center}
+        \begin{tikzpicture}
+          \draw[->, thick] (0,1) -- (0,0);
+        \end{tikzpicture}
+      \end{center}
+      Quantum spin hall effect (QSHE)
+      \begin{image}
+        \includegraphics[width=0.8\textwidth]{picture/hall.png}       
+      \end{image}
+    \end{column}
+    \begin{column}{0.5\textwidth}
+     \begin{image}
+       \includegraphics[width=1.0\textwidth]{picture/qhall-effect.png}
+      
+     \end{image} 
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Perkembangan Penelitian}
+  \begin{columns}
+    \begin{column}{0.5\textwidth}
+   % penelitian Kane-Mele
+      Kane-Mele telah melakukan penelitian yang menunjukkan adanya efek QSHE pada grafena.
+    \begin{image}
+      \includegraphics[width=0.6\textwidth]{picture/haldane_hoppings.pdf}
+    \end{image}
+   \end{column}
+   \pause 
+   \begin{column}{0.5\textwidth}
+     Penelitian \parencite{Lau} juga memberikan ide untuk mempelajari efek stacking layer pada grafena.
+     \pause
+     \textcolor{blue}{\textbf{Pertanyaan yang muncul kemudian adalah|}}
+     \pause
+     \begin{itemize}
+       \item Karena grafena dimodifikasi sebelum menunjukkan efek QSHE, apa yang terjadi kalau kita lakukan variasi parameter?
+         \pause
+       \item Apakah penumpukan grafena menunjukkan efek kuantum yang berbeda dengan satu lapisan?
+     \end{itemize}
+   \end{column}
+  \end{columns}
+  
 \end{frame}
 
 \section{Tujuan Penelitian}

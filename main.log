@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.2.6)  6 APR 2026 11:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.2.6)  8 APR 2026 11:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1034,31 +1034,31 @@ Overfull \hbox (90.8287pt too wide) has occurred while \output is active
 [2
 
 ]
-Overfull \hbox (90.8287pt too wide) in paragraph at lines 40--40
+Overfull \hbox (90.8287pt too wide) in paragraph at lines 67--67
  [][][][] []  
  []
 
 
-./main.tex:40: LaTeX Error: Environment coulumn undefined.
+./main.tex:67: LaTeX Error: Environment coulumn undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.40 \end{frame}
+l.67 \end{frame}
                 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./main.tex:40: LaTeX Error: Environment image undefined.
+./main.tex:67: LaTeX Error: Environment image undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.40 \end{frame}
+l.67 \end{frame}
                 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1067,75 +1067,70 @@ or  <return>  to continue without it.
 <picture/disipation_data.jpg, id=69, 501.875pt x 401.5pt>
 File: picture/disipation_data.jpg Graphic file (type jpg)
 <use picture/disipation_data.jpg>
-Package pdftex.def Info: picture/disipation_data.jpg  used on input line 40.
+Package pdftex.def Info: picture/disipation_data.jpg  used on input line 67.
 (pdftex.def)             Requested size: 159.33604pt x 127.47176pt.
 
-./main.tex:40: LaTeX Error: \begin{minipage} on input line 40 ended by \end{image}.
+./main.tex:67: LaTeX Error: \begin{minipage} on input line 67 ended by \end{image}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.40 \end{frame}
+l.67 \end{frame}
                 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./main.tex:40: LaTeX Error: \begin{minipage} on input line 40 ended by \end{coulumn}.
+./main.tex:67: LaTeX Error: \begin{minipage} on input line 67 ended by \end{coulumn}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.40 \end{frame}
+l.67 \end{frame}
                 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 40.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 67.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 40.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 67.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
-./main.tex:40: LaTeX Error: Environment image undefined.
+./main.tex:67: LaTeX Error: Environment coulumn undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.40 \end{frame}
-                
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-<picture/disipation_data.jpg.jpg, id=70, 401.5pt x 327.2225pt>
-File: picture/disipation_data.jpg.jpg Graphic file (type jpg)
-<use picture/disipation_data.jpg.jpg>
-Package pdftex.def Info: picture/disipation_data.jpg.jpg  used on input line 40.
-(pdftex.def)             Requested size: 223.06947pt x 181.80536pt.
-
-./main.tex:40: LaTeX Error: \begin{minipage} on input line 40 ended by \end{image}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.40 \end{frame}
+l.67 \end{frame}
                 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (22.761pt too wide) detected at line 40
+./main.tex:67: LaTeX Error: \begin{minipage} on input line 67 ended by \end{coulumn}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.67 \end{frame}
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (22.761pt too wide) detected at line 67
 [][][] $[]$[][][][][][][][] $[]$[][][][][][] 
  []
 
@@ -1146,28 +1141,28 @@ Overfull \hbox (90.8287pt too wide) has occurred while \output is active
 
 [3
 
- <./picture/disipation_data.jpg> <./picture/disipation_data.jpg.jpg>]
+ <./picture/disipation_data.jpg>]
 
-./main.tex:40: LaTeX Error: Environment coulumn undefined.
+./main.tex:67: LaTeX Error: Environment coulumn undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.40 \end{frame}
+l.67 \end{frame}
                 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./main.tex:40: LaTeX Error: Environment image undefined.
+./main.tex:67: LaTeX Error: Environment image undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.40 \end{frame}
+l.67 \end{frame}
                 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1175,66 +1170,62 @@ or  <return>  to continue without it.
 
 File: picture/disipation_data.jpg Graphic file (type jpg)
 <use picture/disipation_data.jpg>
-Package pdftex.def Info: picture/disipation_data.jpg  used on input line 40.
+Package pdftex.def Info: picture/disipation_data.jpg  used on input line 67.
 (pdftex.def)             Requested size: 159.33604pt x 127.47176pt.
 
-./main.tex:40: LaTeX Error: \begin{minipage} on input line 40 ended by \end{image}.
+./main.tex:67: LaTeX Error: \begin{minipage} on input line 67 ended by \end{image}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.40 \end{frame}
+l.67 \end{frame}
                 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./main.tex:40: LaTeX Error: \begin{minipage} on input line 40 ended by \end{coulumn}.
+./main.tex:67: LaTeX Error: \begin{minipage} on input line 67 ended by \end{coulumn}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.40 \end{frame}
+l.67 \end{frame}
                 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./main.tex:40: LaTeX Error: Environment image undefined.
+./main.tex:67: LaTeX Error: Environment coulumn undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.40 \end{frame}
-                
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-File: picture/disipation_data.jpg.jpg Graphic file (type jpg)
-<use picture/disipation_data.jpg.jpg>
-Package pdftex.def Info: picture/disipation_data.jpg.jpg  used on input line 40.
-(pdftex.def)             Requested size: 223.06947pt x 181.80536pt.
-
-./main.tex:40: LaTeX Error: \begin{minipage} on input line 40 ended by \end{image}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.40 \end{frame}
+l.67 \end{frame}
                 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (22.761pt too wide) detected at line 40
+./main.tex:67: LaTeX Error: \begin{minipage} on input line 67 ended by \end{coulumn}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.67 \end{frame}
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (22.761pt too wide) detected at line 67
 [][][] $[]$[][][][][][][][] $[]$[][][][][][] 
  []
 
@@ -1246,71 +1237,92 @@ Overfull \hbox (90.8287pt too wide) has occurred while \output is active
 [4
 
 ]
-Overfull \hbox (90.8287pt too wide) in paragraph at lines 56--56
- [][][][] []  
+
+./main.tex:67: LaTeX Error: Environment coulumn undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.67 \end{frame}
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./main.tex:67: LaTeX Error: Environment image undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.67 \end{frame}
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+File: picture/disipation_data.jpg Graphic file (type jpg)
+<use picture/disipation_data.jpg>
+Package pdftex.def Info: picture/disipation_data.jpg  used on input line 67.
+(pdftex.def)             Requested size: 159.33604pt x 127.47176pt.
+
+./main.tex:67: LaTeX Error: \begin{minipage} on input line 67 ended by \end{image}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.67 \end{frame}
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./main.tex:67: LaTeX Error: \begin{minipage} on input line 67 ended by \end{coulumn}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.67 \end{frame}
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./main.tex:67: LaTeX Error: Environment coulumn undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.67 \end{frame}
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./main.tex:67: LaTeX Error: \begin{minipage} on input line 67 ended by \end{coulumn}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.67 \end{frame}
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (22.761pt too wide) detected at line 67
+[][][] $[]$[][][][][][][][] $[]$[][][][][][] 
  []
-
-
-./main.tex:56: LaTeX Error: Environment image undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.56 \end{frame}
-                
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-<picture/qsh_hallbar.png, id=92, 557.08125pt x 233.87375pt>
-File: picture/qsh_hallbar.png Graphic file (type png)
-<use picture/qsh_hallbar.png>
-Package pdftex.def Info: picture/qsh_hallbar.png  used on input line 56.
-(pdftex.def)             Requested size: 159.33604pt x 66.89023pt.
-
-./main.tex:56: LaTeX Error: \begin{minipage} on input line 56 ended by \end{image}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.56 \end{frame}
-                
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./main.tex:56: LaTeX Error: Environment image undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.56 \end{frame}
-                
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-<picture/qhall-effect.png, id=94, 288.3272pt x 213.04594pt>
-File: picture/qhall-effect.png Graphic file (type png)
-<use picture/qhall-effect.png>
-Package pdftex.def Info: picture/qhall-effect.png  used on input line 56.
-(pdftex.def)             Requested size: 159.33604pt x 117.738pt.
-
-./main.tex:56: LaTeX Error: \begin{minipage} on input line 56 ended by \end{image}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.56 \end{frame}
-                
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
 
 
 Overfull \hbox (90.8287pt too wide) has occurred while \output is active
@@ -1319,66 +1331,93 @@ Overfull \hbox (90.8287pt too wide) has occurred while \output is active
 
 [5
 
- <./picture/qsh_hallbar.png> <./picture/qhall-effect.png>]
+]
 
-./main.tex:56: LaTeX Error: Environment image undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.56 \end{frame}
-                
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-File: picture/qsh_hallbar.png Graphic file (type png)
-<use picture/qsh_hallbar.png>
-Package pdftex.def Info: picture/qsh_hallbar.png  used on input line 56.
-(pdftex.def)             Requested size: 159.33604pt x 66.89023pt.
-
-./main.tex:56: LaTeX Error: \begin{minipage} on input line 56 ended by \end{image}.
+./main.tex:67: LaTeX Error: Environment coulumn undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.56 \end{frame}
+l.67 \end{frame}
                 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./main.tex:56: LaTeX Error: Environment image undefined.
+./main.tex:67: LaTeX Error: Environment image undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.56 \end{frame}
+l.67 \end{frame}
                 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-File: picture/qhall-effect.png Graphic file (type png)
-<use picture/qhall-effect.png>
-Package pdftex.def Info: picture/qhall-effect.png  used on input line 56.
-(pdftex.def)             Requested size: 159.33604pt x 117.738pt.
+File: picture/disipation_data.jpg Graphic file (type jpg)
+<use picture/disipation_data.jpg>
+Package pdftex.def Info: picture/disipation_data.jpg  used on input line 67.
+(pdftex.def)             Requested size: 159.33604pt x 127.47176pt.
 
-./main.tex:56: LaTeX Error: \begin{minipage} on input line 56 ended by \end{image}.
+./main.tex:67: LaTeX Error: \begin{minipage} on input line 67 ended by \end{image}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.56 \end{frame}
+l.67 \end{frame}
                 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
+
+
+./main.tex:67: LaTeX Error: \begin{minipage} on input line 67 ended by \end{coulumn}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.67 \end{frame}
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./main.tex:67: LaTeX Error: Environment coulumn undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.67 \end{frame}
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./main.tex:67: LaTeX Error: \begin{minipage} on input line 67 ended by \end{coulumn}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.67 \end{frame}
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (22.761pt too wide) detected at line 67
+[][][] $[]$[][][][][][][][] $[]$[][][][][][] 
+ []
 
 
 Overfull \hbox (90.8287pt too wide) has occurred while \output is active
@@ -1388,21 +1427,71 @@ Overfull \hbox (90.8287pt too wide) has occurred while \output is active
 [6
 
 ]
-Overfull \hbox (90.8287pt too wide) in paragraph at lines 71--71
+Overfull \hbox (90.8287pt too wide) in paragraph at lines 91--91
  [][][][] []  
  []
 
 
-./main.tex:71: LaTeX Error: Something's wrong--perhaps a missing \item.
+./main.tex:91: LaTeX Error: Environment image undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.71 \end{frame}
+l.91 \end{frame}
                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<picture/road_analogy.pdf, id=110, 2108.6278pt x 2108.6278pt>
+File: picture/road_analogy.pdf Graphic file (type pdf)
+<use picture/road_analogy.pdf>
+Package pdftex.def Info: picture/road_analogy.pdf  used on input line 91.
+(pdftex.def)             Requested size: 159.33604pt x 159.33073pt.
+
+./main.tex:91: LaTeX Error: \begin{minipage} on input line 91 ended by \end{image}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.91 \end{frame}
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./main.tex:91: LaTeX Error: Environment image undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.91 \end{frame}
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<picture/qsh_hallbar.png, id=111, 557.08125pt x 233.87375pt>
+File: picture/qsh_hallbar.png Graphic file (type png)
+<use picture/qsh_hallbar.png>
+Package pdftex.def Info: picture/qsh_hallbar.png  used on input line 91.
+(pdftex.def)             Requested size: 159.33604pt x 66.89023pt.
+
+./main.tex:91: LaTeX Error: \begin{minipage} on input line 91 ended by \end{image}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.91 \end{frame}
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 
 Overfull \hbox (90.8287pt too wide) has occurred while \output is active
@@ -1411,21 +1500,67 @@ Overfull \hbox (90.8287pt too wide) has occurred while \output is active
 
 [7
 
-]
-Overfull \hbox (90.8287pt too wide) in paragraph at lines 86--86
- [][][][] []  
- []
+ <./picture/road_analogy.pdf> <./picture/qsh_hallbar.png>]
 
-<picture/graphene1.png, id=134, 342.27875pt x 203.76125pt>
-File: picture/graphene1.png Graphic file (type png)
-<use picture/graphene1.png>
-Package pdftex.def Info: picture/graphene1.png  used on input line 86.
-(pdftex.def)             Requested size: 199.1693pt x 118.57024pt.
-<picture/graphene.png, id=135, 591.20876pt x 482.80376pt>
-File: picture/graphene.png Graphic file (type png)
-<use picture/graphene.png>
-Package pdftex.def Info: picture/graphene.png  used on input line 86.
-(pdftex.def)             Requested size: 199.1693pt x 162.64824pt.
+./main.tex:91: LaTeX Error: Environment image undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.91 \end{frame}
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+File: picture/road_analogy.pdf Graphic file (type pdf)
+<use picture/road_analogy.pdf>
+Package pdftex.def Info: picture/road_analogy.pdf  used on input line 91.
+(pdftex.def)             Requested size: 159.33604pt x 159.33073pt.
+
+./main.tex:91: LaTeX Error: \begin{minipage} on input line 91 ended by \end{image}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.91 \end{frame}
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./main.tex:91: LaTeX Error: Environment image undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.91 \end{frame}
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+File: picture/qsh_hallbar.png Graphic file (type png)
+<use picture/qsh_hallbar.png>
+Package pdftex.def Info: picture/qsh_hallbar.png  used on input line 91.
+(pdftex.def)             Requested size: 159.33604pt x 66.89023pt.
+
+./main.tex:91: LaTeX Error: \begin{minipage} on input line 91 ended by \end{image}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.91 \end{frame}
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
 
 Overfull \hbox (90.8287pt too wide) has occurred while \output is active
  [][][][] []  
@@ -1433,15 +1568,67 @@ Overfull \hbox (90.8287pt too wide) has occurred while \output is active
 
 [8
 
- <./picture/graphene1.png> <./picture/graphene.png>]
-File: picture/graphene1.png Graphic file (type png)
-<use picture/graphene1.png>
-Package pdftex.def Info: picture/graphene1.png  used on input line 86.
-(pdftex.def)             Requested size: 199.1693pt x 118.57024pt.
-File: picture/graphene.png Graphic file (type png)
-<use picture/graphene.png>
-Package pdftex.def Info: picture/graphene.png  used on input line 86.
-(pdftex.def)             Requested size: 199.1693pt x 162.64824pt.
+]
+
+./main.tex:91: LaTeX Error: Environment image undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.91 \end{frame}
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+File: picture/road_analogy.pdf Graphic file (type pdf)
+<use picture/road_analogy.pdf>
+Package pdftex.def Info: picture/road_analogy.pdf  used on input line 91.
+(pdftex.def)             Requested size: 159.33604pt x 159.33073pt.
+
+./main.tex:91: LaTeX Error: \begin{minipage} on input line 91 ended by \end{image}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.91 \end{frame}
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./main.tex:91: LaTeX Error: Environment image undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.91 \end{frame}
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+File: picture/qsh_hallbar.png Graphic file (type png)
+<use picture/qsh_hallbar.png>
+Package pdftex.def Info: picture/qsh_hallbar.png  used on input line 91.
+(pdftex.def)             Requested size: 159.33604pt x 66.89023pt.
+
+./main.tex:91: LaTeX Error: \begin{minipage} on input line 91 ended by \end{image}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.91 \end{frame}
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
 
 Overfull \hbox (90.8287pt too wide) has occurred while \output is active
  [][][][] []  
@@ -1450,9 +1637,71 @@ Overfull \hbox (90.8287pt too wide) has occurred while \output is active
 [9
 
 ]
-Overfull \hbox (90.8287pt too wide) in paragraph at lines 113--113
+Overfull \hbox (90.8287pt too wide) in paragraph at lines 116--116
  [][][][] []  
  []
+
+
+./main.tex:116: LaTeX Error: Environment image undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.116 \end{frame}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<picture/hall.png, id=152, 96.1191pt x 54.9252pt>
+File: picture/hall.png Graphic file (type png)
+<use picture/hall.png>
+Package pdftex.def Info: picture/hall.png  used on input line 116.
+(pdftex.def)             Requested size: 159.33604pt x 91.0576pt.
+
+./main.tex:116: LaTeX Error: \begin{minipage} on input line 116 ended by \end{image}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.116 \end{frame}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./main.tex:116: LaTeX Error: Environment image undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.116 \end{frame}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<picture/qhall-effect.png, id=153, 288.3272pt x 213.04594pt>
+File: picture/qhall-effect.png Graphic file (type png)
+<use picture/qhall-effect.png>
+Package pdftex.def Info: picture/qhall-effect.png  used on input line 116.
+(pdftex.def)             Requested size: 199.1693pt x 147.17088pt.
+
+./main.tex:116: LaTeX Error: \begin{minipage} on input line 116 ended by \end{image}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.116 \end{frame}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 
 Overfull \hbox (90.8287pt too wide) has occurred while \output is active
@@ -1461,7 +1710,68 @@ Overfull \hbox (90.8287pt too wide) has occurred while \output is active
 
 [10
 
-]
+ <./picture/hall.png> <./picture/qhall-effect.png>]
+
+./main.tex:116: LaTeX Error: Environment image undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.116 \end{frame}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+File: picture/hall.png Graphic file (type png)
+<use picture/hall.png>
+Package pdftex.def Info: picture/hall.png  used on input line 116.
+(pdftex.def)             Requested size: 159.33604pt x 91.0576pt.
+
+./main.tex:116: LaTeX Error: \begin{minipage} on input line 116 ended by \end{image}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.116 \end{frame}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./main.tex:116: LaTeX Error: Environment image undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.116 \end{frame}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+File: picture/qhall-effect.png Graphic file (type png)
+<use picture/qhall-effect.png>
+Package pdftex.def Info: picture/qhall-effect.png  used on input line 116.
+(pdftex.def)             Requested size: 199.1693pt x 147.17088pt.
+
+./main.tex:116: LaTeX Error: \begin{minipage} on input line 116 ended by \end{image}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.116 \end{frame}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
 Overfull \hbox (90.8287pt too wide) has occurred while \output is active
  [][][][] []  
  []
@@ -1469,16 +1779,87 @@ Overfull \hbox (90.8287pt too wide) has occurred while \output is active
 [11
 
 ]
+Overfull \hbox (90.8287pt too wide) in paragraph at lines 142--142
+ [][][][] []  
+ []
+
+
+./main.tex:142: LaTeX Error: Environment image undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.142 \end{frame}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+
+pdfTeX warning: pdflatex (file ./picture/haldane_hoppings.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<picture/haldane_hoppings.pdf, id=179, 217.78653pt x 229.83002pt>
+File: picture/haldane_hoppings.pdf Graphic file (type pdf)
+<use picture/haldane_hoppings.pdf>
+Package pdftex.def Info: picture/haldane_hoppings.pdf  used on input line 142.
+(pdftex.def)             Requested size: 119.50279pt x 126.1123pt.
+
+./main.tex:142: LaTeX Error: \begin{minipage} on input line 142 ended by \end{image}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.142 \end{frame}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+LaTeX Warning: Citation 'Lau' on page 12 undefined on input line 142.
+
+
 Overfull \hbox (90.8287pt too wide) has occurred while \output is active
  [][][][] []  
  []
 
 [12
 
-]
-Overfull \hbox (90.8287pt too wide) in paragraph at lines 139--139
- [][][][] []  
- []
+ <./picture/haldane_hoppings.pdf>]
+
+./main.tex:142: LaTeX Error: Environment image undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.142 \end{frame}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+File: picture/haldane_hoppings.pdf Graphic file (type pdf)
+<use picture/haldane_hoppings.pdf>
+Package pdftex.def Info: picture/haldane_hoppings.pdf  used on input line 142.
+(pdftex.def)             Requested size: 119.50279pt x 126.1123pt.
+
+./main.tex:142: LaTeX Error: \begin{minipage} on input line 142 ended by \end{image}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.142 \end{frame}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+LaTeX Warning: Citation 'Lau' on page 13 undefined on input line 142.
 
 
 Overfull \hbox (90.8287pt too wide) has occurred while \output is active
@@ -1488,6 +1869,40 @@ Overfull \hbox (90.8287pt too wide) has occurred while \output is active
 [13
 
 ]
+
+./main.tex:142: LaTeX Error: Environment image undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.142 \end{frame}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+File: picture/haldane_hoppings.pdf Graphic file (type pdf)
+<use picture/haldane_hoppings.pdf>
+Package pdftex.def Info: picture/haldane_hoppings.pdf  used on input line 142.
+(pdftex.def)             Requested size: 119.50279pt x 126.1123pt.
+
+./main.tex:142: LaTeX Error: \begin{minipage} on input line 142 ended by \end{image}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.142 \end{frame}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+LaTeX Warning: Citation 'Lau' on page 14 undefined on input line 142.
+
+
 Overfull \hbox (90.8287pt too wide) has occurred while \output is active
  [][][][] []  
  []
@@ -1495,70 +1910,38 @@ Overfull \hbox (90.8287pt too wide) has occurred while \output is active
 [14
 
 ]
-Overfull \hbox (90.8287pt too wide) in paragraph at lines 162--162
- [][][][] []  
- []
 
-<picture/hall.png, id=227, 96.1191pt x 54.9252pt>
-File: picture/hall.png Graphic file (type png)
-<use picture/hall.png>
-Package pdftex.def Info: picture/hall.png  used on input line 162.
-(pdftex.def)             Requested size: 179.25114pt x 102.43886pt.
-
-./main.tex:162: LaTeX Error: There's no line here to end.
+./main.tex:142: LaTeX Error: Environment image undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.162 \end{frame}
+l.142 \end{frame}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-./main.tex:162: Missing $ inserted.
-<inserted text> 
-                $
-l.162 \end{frame}
+File: picture/haldane_hoppings.pdf Graphic file (type pdf)
+<use picture/haldane_hoppings.pdf>
+Package pdftex.def Info: picture/haldane_hoppings.pdf  used on input line 142.
+(pdftex.def)             Requested size: 119.50279pt x 126.1123pt.
+
+./main.tex:142: LaTeX Error: \begin{minipage} on input line 142 ended by \end{image}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.142 \end{frame}
                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./main.tex:162: Display math should end with $$.
-<to be read again> 
-                   \tex_par:D 
-l.162 \end{frame}
-                 
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 
-Overfull \hbox (10.10043pt too wide) detected at line 162
-\OMS/cmsy/m/n/10.95 H[] \OT1/cmss/m/n/10.95 = \OT1/cmss/m/it/10.95 t [] c[]c[] \OT1/cmss/m/n/10.95 + \OT1/cmss/m/it/10.95 i\OML/cmm/m/it/10.95 ^^U[] [] ^^W[]\OT1/cmss/m/it/10.95 c[]s[]c[]
- []
-
-./main.tex:162: Missing $ inserted.
-<inserted text> 
-                $
-l.162 \end{frame}
-                 
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <10.95> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 162.
-LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <8> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 162.
-LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <6> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 162.
-./main.tex:162: Missing $ inserted.
-<inserted text> 
-                $
-l.162 \end{frame}
-                 
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+LaTeX Warning: Citation 'Lau' on page 15 undefined on input line 142.
 
 
 Overfull \hbox (90.8287pt too wide) has occurred while \output is active
@@ -1567,61 +1950,39 @@ Overfull \hbox (90.8287pt too wide) has occurred while \output is active
 
 [15
 
- <./picture/hall.png>]
-File: picture/hall.png Graphic file (type png)
-<use picture/hall.png>
-Package pdftex.def Info: picture/hall.png  used on input line 162.
-(pdftex.def)             Requested size: 179.25114pt x 102.43886pt.
+]
 
-
-./main.tex:162: LaTeX Error: There's no line here to end.
+./main.tex:142: LaTeX Error: Environment image undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.162 \end{frame}
+l.142 \end{frame}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-./main.tex:162: Missing $ inserted.
-<inserted text> 
-                $
-l.162 \end{frame}
+File: picture/haldane_hoppings.pdf Graphic file (type pdf)
+<use picture/haldane_hoppings.pdf>
+Package pdftex.def Info: picture/haldane_hoppings.pdf  used on input line 142.
+(pdftex.def)             Requested size: 119.50279pt x 126.1123pt.
+
+./main.tex:142: LaTeX Error: \begin{minipage} on input line 142 ended by \end{image}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.142 \end{frame}
                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./main.tex:162: Display math should end with $$.
-<to be read again> 
-                   \tex_par:D 
-l.162 \end{frame}
-                 
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 
-Overfull \hbox (10.10043pt too wide) detected at line 162
-\OMS/cmsy/m/n/10.95 H[] \OT1/cmss/m/n/10.95 = \OT1/cmss/m/it/10.95 t [] c[]c[] \OT1/cmss/m/n/10.95 + \OT1/cmss/m/it/10.95 i\OML/cmm/m/it/10.95 ^^U[] [] ^^W[]\OT1/cmss/m/it/10.95 c[]s[]c[]
- []
-
-./main.tex:162: Missing $ inserted.
-<inserted text> 
-                $
-l.162 \end{frame}
-                 
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./main.tex:162: Missing $ inserted.
-<inserted text> 
-                $
-l.162 \end{frame}
-                 
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+LaTeX Warning: Citation 'Lau' on page 16 undefined on input line 142.
 
 
 Overfull \hbox (90.8287pt too wide) has occurred while \output is active
@@ -1631,59 +1992,21 @@ Overfull \hbox (90.8287pt too wide) has occurred while \output is active
 [16
 
 ]
-Overfull \hbox (90.8287pt too wide) in paragraph at lines 182--182
+Overfull \hbox (90.8287pt too wide) in paragraph at lines 157--157
  [][][][] []  
  []
 
-<picture/stacking_layer.png, id=251, 752.8125pt x 392.46625pt>
-File: picture/stacking_layer.png Graphic file (type png)
-<use picture/stacking_layer.png>
-Package pdftex.def Info: picture/stacking_layer.png  used on input line 182.
-(pdftex.def)             Requested size: 179.25114pt x 93.45123pt.
-./main.tex:182: Missing $ inserted.
-<inserted text> 
-                $
-l.182 \end{frame}
-                 
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
 
-
-./main.tex:182: LaTeX Error: There's no line here to end.
+./main.tex:157: LaTeX Error: Something's wrong--perhaps a missing \item.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.182 \end{frame}
+l.157 \end{frame}
                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-./main.tex:182: Missing $ inserted.
-<inserted text> 
-                $
-l.182 \end{frame}
-                 
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./main.tex:182: Missing $ inserted.
-<inserted text> 
-                $
-l.182 \end{frame}
-                 
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./main.tex:182: Missing $ inserted.
-<inserted text> 
-                $
-l.182 \end{frame}
-                 
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 
 Overfull \hbox (90.8287pt too wide) has occurred while \output is active
@@ -1692,38 +2015,21 @@ Overfull \hbox (90.8287pt too wide) has occurred while \output is active
 
 [17
 
- <./picture/stacking_layer.png>]
-Overfull \hbox (90.8287pt too wide) in paragraph at lines 234--234
+]
+Overfull \hbox (90.8287pt too wide) in paragraph at lines 172--172
  [][][][] []  
  []
 
-./main.tex:234: Undefined control sequence.
-<recently read> \ket 
-                     
-l.234 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./main.tex:234: Undefined control sequence.
-\beamer@doifinframe ...\alpha } c_{n \alpha }\ket 
-                                                  {\phi _{\alpha }}$ \\ \foo...
-l.234 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Overfull \hbox (3.33958pt too wide) in paragraph at lines 234--234
- [][] 
- []
-
+<picture/graphene1.png, id=247, 342.27875pt x 203.76125pt>
+File: picture/graphene1.png Graphic file (type png)
+<use picture/graphene1.png>
+Package pdftex.def Info: picture/graphene1.png  used on input line 172.
+(pdftex.def)             Requested size: 199.1693pt x 118.57024pt.
+<picture/graphene.png, id=248, 591.20876pt x 482.80376pt>
+File: picture/graphene.png Graphic file (type png)
+<use picture/graphene.png>
+Package pdftex.def Info: picture/graphene.png  used on input line 172.
+(pdftex.def)             Requested size: 199.1693pt x 162.64824pt.
 
 Overfull \hbox (90.8287pt too wide) has occurred while \output is active
  [][][][] []  
@@ -1731,34 +2037,15 @@ Overfull \hbox (90.8287pt too wide) has occurred while \output is active
 
 [18
 
-]
-./main.tex:234: Undefined control sequence.
-<recently read> \ket 
-                     
-l.234 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./main.tex:234: Undefined control sequence.
-\beamer@doifinframe ...\alpha } c_{n \alpha }\ket 
-                                                  {\phi _{\alpha }}$ \\ \foo...
-l.234 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Overfull \hbox (3.33958pt too wide) in paragraph at lines 234--234
- [][] 
- []
-
+ <./picture/graphene1.png> <./picture/graphene.png>]
+File: picture/graphene1.png Graphic file (type png)
+<use picture/graphene1.png>
+Package pdftex.def Info: picture/graphene1.png  used on input line 172.
+(pdftex.def)             Requested size: 199.1693pt x 118.57024pt.
+File: picture/graphene.png Graphic file (type png)
+<use picture/graphene.png>
+Package pdftex.def Info: picture/graphene.png  used on input line 172.
+(pdftex.def)             Requested size: 199.1693pt x 162.64824pt.
 
 Overfull \hbox (90.8287pt too wide) has occurred while \output is active
  [][][][] []  
@@ -1767,31 +2054,8 @@ Overfull \hbox (90.8287pt too wide) has occurred while \output is active
 [19
 
 ]
-./main.tex:234: Undefined control sequence.
-<recently read> \ket 
-                     
-l.234 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./main.tex:234: Undefined control sequence.
-\beamer@doifinframe ...\alpha } c_{n \alpha }\ket 
-                                                  {\phi _{\alpha }}$ \\ \foo...
-l.234 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Overfull \hbox (3.33958pt too wide) in paragraph at lines 234--234
- [][] 
+Overfull \hbox (90.8287pt too wide) in paragraph at lines 199--199
+ [][][][] []  
  []
 
 
@@ -1802,34 +2066,6 @@ Overfull \hbox (90.8287pt too wide) has occurred while \output is active
 [20
 
 ]
-./main.tex:234: Undefined control sequence.
-<recently read> \ket 
-                     
-l.234 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./main.tex:234: Undefined control sequence.
-\beamer@doifinframe ...\alpha } c_{n \alpha }\ket 
-                                                  {\phi _{\alpha }}$ \\ \foo...
-l.234 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Overfull \hbox (3.33958pt too wide) in paragraph at lines 234--234
- [][] 
- []
-
-
 Overfull \hbox (90.8287pt too wide) has occurred while \output is active
  [][][][] []  
  []
@@ -1837,34 +2073,6 @@ Overfull \hbox (90.8287pt too wide) has occurred while \output is active
 [21
 
 ]
-./main.tex:234: Undefined control sequence.
-<recently read> \ket 
-                     
-l.234 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./main.tex:234: Undefined control sequence.
-\beamer@doifinframe ...\alpha } c_{n \alpha }\ket 
-                                                  {\phi _{\alpha }}$ \\ \foo...
-l.234 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Overfull \hbox (3.33958pt too wide) in paragraph at lines 234--234
- [][] 
- []
-
-
 Overfull \hbox (90.8287pt too wide) has occurred while \output is active
  [][][][] []  
  []
@@ -1872,15 +2080,10 @@ Overfull \hbox (90.8287pt too wide) has occurred while \output is active
 [22
 
 ]
-Overfull \hbox (90.8287pt too wide) in paragraph at lines 261--261
+Overfull \hbox (90.8287pt too wide) in paragraph at lines 225--225
  [][][][] []  
  []
 
-<picture/transformasi-blochWannier.png, id=315, 951.555pt x 654.445pt>
-File: picture/transformasi-blochWannier.png Graphic file (type png)
-<use picture/transformasi-blochWannier.png>
-Package pdftex.def Info: picture/transformasi-blochWannier.png  used on input line 261.
-(pdftex.def)             Requested size: 219.08743pt x 150.67896pt.
 
 Overfull \hbox (90.8287pt too wide) has occurred while \output is active
  [][][][] []  
@@ -1888,12 +2091,7 @@ Overfull \hbox (90.8287pt too wide) has occurred while \output is active
 
 [23
 
- <./picture/transformasi-blochWannier.png>]
-File: picture/transformasi-blochWannier.png Graphic file (type png)
-<use picture/transformasi-blochWannier.png>
-Package pdftex.def Info: picture/transformasi-blochWannier.png  used on input line 261.
-(pdftex.def)             Requested size: 219.08743pt x 150.67896pt.
-
+]
 Overfull \hbox (90.8287pt too wide) has occurred while \output is active
  [][][][] []  
  []
@@ -1901,10 +2099,70 @@ Overfull \hbox (90.8287pt too wide) has occurred while \output is active
 [24
 
 ]
-File: picture/transformasi-blochWannier.png Graphic file (type png)
-<use picture/transformasi-blochWannier.png>
-Package pdftex.def Info: picture/transformasi-blochWannier.png  used on input line 261.
-(pdftex.def)             Requested size: 219.08743pt x 150.67896pt.
+Overfull \hbox (90.8287pt too wide) in paragraph at lines 248--248
+ [][][][] []  
+ []
+
+File: picture/hall.png Graphic file (type png)
+<use picture/hall.png>
+Package pdftex.def Info: picture/hall.png  used on input line 248.
+(pdftex.def)             Requested size: 179.25114pt x 102.43886pt.
+
+./main.tex:248: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.248 \end{frame}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./main.tex:248: Missing $ inserted.
+<inserted text> 
+                $
+l.248 \end{frame}
+                 
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./main.tex:248: Display math should end with $$.
+<to be read again> 
+                   \tex_par:D 
+l.248 \end{frame}
+                 
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+
+Overfull \hbox (10.10043pt too wide) detected at line 248
+\OMS/cmsy/m/n/10.95 H[] \OT1/cmss/m/n/10.95 = \OT1/cmss/m/it/10.95 t [] c[]c[] \OT1/cmss/m/n/10.95 + \OT1/cmss/m/it/10.95 i\OML/cmm/m/it/10.95 ^^U[] [] ^^W[]\OT1/cmss/m/it/10.95 c[]s[]c[]
+ []
+
+./main.tex:248: Missing $ inserted.
+<inserted text> 
+                $
+l.248 \end{frame}
+                 
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <10.95> not available
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 248.
+LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <8> not available
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 248.
+LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <6> not available
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 248.
+./main.tex:248: Missing $ inserted.
+<inserted text> 
+                $
+l.248 \end{frame}
+                 
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
 
 Overfull \hbox (90.8287pt too wide) has occurred while \output is active
  [][][][] []  
@@ -1913,10 +2171,61 @@ Overfull \hbox (90.8287pt too wide) has occurred while \output is active
 [25
 
 ]
-File: picture/transformasi-blochWannier.png Graphic file (type png)
-<use picture/transformasi-blochWannier.png>
-Package pdftex.def Info: picture/transformasi-blochWannier.png  used on input line 261.
-(pdftex.def)             Requested size: 219.08743pt x 150.67896pt.
+File: picture/hall.png Graphic file (type png)
+<use picture/hall.png>
+Package pdftex.def Info: picture/hall.png  used on input line 248.
+(pdftex.def)             Requested size: 179.25114pt x 102.43886pt.
+
+
+./main.tex:248: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.248 \end{frame}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./main.tex:248: Missing $ inserted.
+<inserted text> 
+                $
+l.248 \end{frame}
+                 
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./main.tex:248: Display math should end with $$.
+<to be read again> 
+                   \tex_par:D 
+l.248 \end{frame}
+                 
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+
+Overfull \hbox (10.10043pt too wide) detected at line 248
+\OMS/cmsy/m/n/10.95 H[] \OT1/cmss/m/n/10.95 = \OT1/cmss/m/it/10.95 t [] c[]c[] \OT1/cmss/m/n/10.95 + \OT1/cmss/m/it/10.95 i\OML/cmm/m/it/10.95 ^^U[] [] ^^W[]\OT1/cmss/m/it/10.95 c[]s[]c[]
+ []
+
+./main.tex:248: Missing $ inserted.
+<inserted text> 
+                $
+l.248 \end{frame}
+                 
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./main.tex:248: Missing $ inserted.
+<inserted text> 
+                $
+l.248 \end{frame}
+                 
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
 
 Overfull \hbox (90.8287pt too wide) has occurred while \output is active
  [][][][] []  
@@ -1925,99 +2234,59 @@ Overfull \hbox (90.8287pt too wide) has occurred while \output is active
 [26
 
 ]
-Overfull \hbox (90.8287pt too wide) in paragraph at lines 281--281
+Overfull \hbox (90.8287pt too wide) in paragraph at lines 268--268
  [][][][] []  
  []
 
-
-./main.tex:281: LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.281 \end{frame}
-                 
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-./main.tex:281: Missing $ inserted.
+<picture/stacking_layer.png, id=364, 752.8125pt x 392.46625pt>
+File: picture/stacking_layer.png Graphic file (type png)
+<use picture/stacking_layer.png>
+Package pdftex.def Info: picture/stacking_layer.png  used on input line 268.
+(pdftex.def)             Requested size: 179.25114pt x 93.45123pt.
+./main.tex:268: Missing $ inserted.
 <inserted text> 
                 $
-l.281 \end{frame}
-                 
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./main.tex:281: Display math should end with $$.
-<to be read again> 
-                   \tex_par:D 
-l.281 \end{frame}
-                 
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
-
-./main.tex:281: Missing $ inserted.
-<inserted text> 
-                $
-l.281 \end{frame}
+l.268 \end{frame}
                  
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-./main.tex:281: LaTeX Error: There's no line here to end.
+./main.tex:268: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.281 \end{frame}
+l.268 \end{frame}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-./main.tex:281: Missing $ inserted.
+./main.tex:268: Missing $ inserted.
 <inserted text> 
                 $
-l.281 \end{frame}
+l.268 \end{frame}
                  
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-
-./main.tex:281: LaTeX Error: Bad math environment delimiter.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.281 \end{frame}
-                 
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-./main.tex:281: Missing $ inserted.
+./main.tex:268: Missing $ inserted.
 <inserted text> 
                 $
-l.281 \end{frame}
+l.268 \end{frame}
                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
-./main.tex:281: Display math should end with $$.
-<to be read again> 
-                   \endgroup 
-l.281 \end{frame}
+./main.tex:268: Missing $ inserted.
+<inserted text> 
+                $
+l.268 \end{frame}
                  
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
 
 Overfull \hbox (90.8287pt too wide) has occurred while \output is active
@@ -2026,96 +2295,37 @@ Overfull \hbox (90.8287pt too wide) has occurred while \output is active
 
 [27
 
-]
+ <./picture/stacking_layer.png>]
+Overfull \hbox (90.8287pt too wide) in paragraph at lines 320--320
+ [][][][] []  
+ []
 
-./main.tex:281: LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.281 \end{frame}
+./main.tex:320: Undefined control sequence.
+<recently read> \ket 
+                     
+l.320 \end{frame}
                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-./main.tex:281: Missing $ inserted.
-<inserted text> 
-                $
-l.281 \end{frame}
+./main.tex:320: Undefined control sequence.
+\beamer@doifinframe ...\alpha } c_{n \alpha }\ket 
+                                                  {\phi _{\alpha }}$ \\ \foo...
+l.320 \end{frame}
                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./main.tex:281: Display math should end with $$.
-<to be read again> 
-                   \tex_par:D 
-l.281 \end{frame}
-                 
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
-
-./main.tex:281: Missing $ inserted.
-<inserted text> 
-                $
-l.281 \end{frame}
-                 
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
 
-./main.tex:281: LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.281 \end{frame}
-                 
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-./main.tex:281: Missing $ inserted.
-<inserted text> 
-                $
-l.281 \end{frame}
-                 
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-./main.tex:281: LaTeX Error: Bad math environment delimiter.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.281 \end{frame}
-                 
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-./main.tex:281: Missing $ inserted.
-<inserted text> 
-                $
-l.281 \end{frame}
-                 
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-./main.tex:281: Display math should end with $$.
-<to be read again> 
-                   \endgroup 
-l.281 \end{frame}
-                 
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
+Overfull \hbox (3.33958pt too wide) in paragraph at lines 320--320
+ [][] 
+ []
 
 
 Overfull \hbox (90.8287pt too wide) has occurred while \output is active
@@ -2125,95 +2335,32 @@ Overfull \hbox (90.8287pt too wide) has occurred while \output is active
 [28
 
 ]
-
-./main.tex:281: LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.281 \end{frame}
+./main.tex:320: Undefined control sequence.
+<recently read> \ket 
+                     
+l.320 \end{frame}
                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-./main.tex:281: Missing $ inserted.
-<inserted text> 
-                $
-l.281 \end{frame}
+./main.tex:320: Undefined control sequence.
+\beamer@doifinframe ...\alpha } c_{n \alpha }\ket 
+                                                  {\phi _{\alpha }}$ \\ \foo...
+l.320 \end{frame}
                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./main.tex:281: Display math should end with $$.
-<to be read again> 
-                   \tex_par:D 
-l.281 \end{frame}
-                 
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
-
-./main.tex:281: Missing $ inserted.
-<inserted text> 
-                $
-l.281 \end{frame}
-                 
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
 
-./main.tex:281: LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.281 \end{frame}
-                 
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-./main.tex:281: Missing $ inserted.
-<inserted text> 
-                $
-l.281 \end{frame}
-                 
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-./main.tex:281: LaTeX Error: Bad math environment delimiter.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.281 \end{frame}
-                 
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-./main.tex:281: Missing $ inserted.
-<inserted text> 
-                $
-l.281 \end{frame}
-                 
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-./main.tex:281: Display math should end with $$.
-<to be read again> 
-                   \endgroup 
-l.281 \end{frame}
-                 
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
+Overfull \hbox (3.33958pt too wide) in paragraph at lines 320--320
+ [][] 
+ []
 
 
 Overfull \hbox (90.8287pt too wide) has occurred while \output is active
@@ -2223,8 +2370,31 @@ Overfull \hbox (90.8287pt too wide) has occurred while \output is active
 [29
 
 ]
-Overfull \hbox (90.8287pt too wide) in paragraph at lines 308--308
- [][][][] []  
+./main.tex:320: Undefined control sequence.
+<recently read> \ket 
+                     
+l.320 \end{frame}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./main.tex:320: Undefined control sequence.
+\beamer@doifinframe ...\alpha } c_{n \alpha }\ket 
+                                                  {\phi _{\alpha }}$ \\ \foo...
+l.320 \end{frame}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (3.33958pt too wide) in paragraph at lines 320--320
+ [][] 
  []
 
 
@@ -2235,6 +2405,34 @@ Overfull \hbox (90.8287pt too wide) has occurred while \output is active
 [30
 
 ]
+./main.tex:320: Undefined control sequence.
+<recently read> \ket 
+                     
+l.320 \end{frame}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./main.tex:320: Undefined control sequence.
+\beamer@doifinframe ...\alpha } c_{n \alpha }\ket 
+                                                  {\phi _{\alpha }}$ \\ \foo...
+l.320 \end{frame}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (3.33958pt too wide) in paragraph at lines 320--320
+ [][] 
+ []
+
+
 Overfull \hbox (90.8287pt too wide) has occurred while \output is active
  [][][][] []  
  []
@@ -2242,6 +2440,34 @@ Overfull \hbox (90.8287pt too wide) has occurred while \output is active
 [31
 
 ]
+./main.tex:320: Undefined control sequence.
+<recently read> \ket 
+                     
+l.320 \end{frame}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./main.tex:320: Undefined control sequence.
+\beamer@doifinframe ...\alpha } c_{n \alpha }\ket 
+                                                  {\phi _{\alpha }}$ \\ \foo...
+l.320 \end{frame}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (3.33958pt too wide) in paragraph at lines 320--320
+ [][] 
+ []
+
+
 Overfull \hbox (90.8287pt too wide) has occurred while \output is active
  [][][][] []  
  []
@@ -2249,44 +2475,27 @@ Overfull \hbox (90.8287pt too wide) has occurred while \output is active
 [32
 
 ]
+Overfull \hbox (90.8287pt too wide) in paragraph at lines 347--347
+ [][][][] []  
+ []
+
+<picture/transformasi-blochWannier.png, id=428, 951.555pt x 654.445pt>
+File: picture/transformasi-blochWannier.png Graphic file (type png)
+<use picture/transformasi-blochWannier.png>
+Package pdftex.def Info: picture/transformasi-blochWannier.png  used on input line 347.
+(pdftex.def)             Requested size: 219.08743pt x 150.67896pt.
+
 Overfull \hbox (90.8287pt too wide) has occurred while \output is active
  [][][][] []  
  []
 
 [33
 
-]
-Overfull \hbox (90.8287pt too wide) in paragraph at lines 342--342
- [][][][] []  
- []
-
-
-./main.tex:342: LaTeX Error: Unicode character π (U+03C0)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.342 \end{frame}
-                 
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-Overfull \hbox (36.80249pt too wide) detected at line 342
-\OML/cmm/m/it/10.95 ^^R \OT1/cmss/m/n/10.95 = [] [][] \OT1/cmss/m/it/10.95 d[]k \OML/cmm/m/it/10.95 ^^O[][] []
- []
-
-
-Overfull \hbox (12.85013pt too wide) detected at line 342
-\OML/cmm/m/it/10.95 ^^R \OT1/cmss/m/n/10.95 = [] [][] \OT1/cmss/m/it/10.95 d\OML/cmm/m/it/10.95 ^^L[] [] \OT1/cmss/m/it/10.95 d[]k \OML/cmm/m/it/10.95 ^^O[][]\OT1/cmss/m/n/10.95 [\OMS/cmsy/m/n/10.95 F[]\OT1/cmss/m/n/10.95 (\OT1/cmss/bx/n/10.95 k\OML/cmm/m/it/10.95 ; ^^L[]\OT1/cmss/m/n/10.95 )\OMS/cmsy/m/n/10.95 F[]\OT1/cmss/m/n/10.95 (\OT1/cmss/bx/n/10.95 k\OML/cmm/m/it/10.95 ; ^^L[]\OT1/cmss/m/n/10.95 )]
- []
-
-
-Overfull \vbox (1.56311pt too high) detected at line 342
- []
-
+ <./picture/transformasi-blochWannier.png>]
+File: picture/transformasi-blochWannier.png Graphic file (type png)
+<use picture/transformasi-blochWannier.png>
+Package pdftex.def Info: picture/transformasi-blochWannier.png  used on input line 347.
+(pdftex.def)             Requested size: 219.08743pt x 150.67896pt.
 
 Overfull \hbox (90.8287pt too wide) has occurred while \output is active
  [][][][] []  
@@ -2295,33 +2504,10 @@ Overfull \hbox (90.8287pt too wide) has occurred while \output is active
 [34
 
 ]
-
-./main.tex:342: LaTeX Error: Unicode character π (U+03C0)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.342 \end{frame}
-                 
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-Overfull \hbox (36.80249pt too wide) detected at line 342
-\OML/cmm/m/it/10.95 ^^R \OT1/cmss/m/n/10.95 = [] [][] \OT1/cmss/m/it/10.95 d[]k \OML/cmm/m/it/10.95 ^^O[][] []
- []
-
-
-Overfull \hbox (12.85013pt too wide) detected at line 342
-\OML/cmm/m/it/10.95 ^^R \OT1/cmss/m/n/10.95 = [] [][] \OT1/cmss/m/it/10.95 d\OML/cmm/m/it/10.95 ^^L[] [] \OT1/cmss/m/it/10.95 d[]k \OML/cmm/m/it/10.95 ^^O[][]\OT1/cmss/m/n/10.95 [\OMS/cmsy/m/n/10.95 F[]\OT1/cmss/m/n/10.95 (\OT1/cmss/bx/n/10.95 k\OML/cmm/m/it/10.95 ; ^^L[]\OT1/cmss/m/n/10.95 )\OMS/cmsy/m/n/10.95 F[]\OT1/cmss/m/n/10.95 (\OT1/cmss/bx/n/10.95 k\OML/cmm/m/it/10.95 ; ^^L[]\OT1/cmss/m/n/10.95 )]
- []
-
-
-Overfull \vbox (1.56311pt too high) detected at line 342
- []
-
+File: picture/transformasi-blochWannier.png Graphic file (type png)
+<use picture/transformasi-blochWannier.png>
+Package pdftex.def Info: picture/transformasi-blochWannier.png  used on input line 347.
+(pdftex.def)             Requested size: 219.08743pt x 150.67896pt.
 
 Overfull \hbox (90.8287pt too wide) has occurred while \output is active
  [][][][] []  
@@ -2330,33 +2516,10 @@ Overfull \hbox (90.8287pt too wide) has occurred while \output is active
 [35
 
 ]
-
-./main.tex:342: LaTeX Error: Unicode character π (U+03C0)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.342 \end{frame}
-                 
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-Overfull \hbox (36.80249pt too wide) detected at line 342
-\OML/cmm/m/it/10.95 ^^R \OT1/cmss/m/n/10.95 = [] [][] \OT1/cmss/m/it/10.95 d[]k \OML/cmm/m/it/10.95 ^^O[][] []
- []
-
-
-Overfull \hbox (12.85013pt too wide) detected at line 342
-\OML/cmm/m/it/10.95 ^^R \OT1/cmss/m/n/10.95 = [] [][] \OT1/cmss/m/it/10.95 d\OML/cmm/m/it/10.95 ^^L[] [] \OT1/cmss/m/it/10.95 d[]k \OML/cmm/m/it/10.95 ^^O[][]\OT1/cmss/m/n/10.95 [\OMS/cmsy/m/n/10.95 F[]\OT1/cmss/m/n/10.95 (\OT1/cmss/bx/n/10.95 k\OML/cmm/m/it/10.95 ; ^^L[]\OT1/cmss/m/n/10.95 )\OMS/cmsy/m/n/10.95 F[]\OT1/cmss/m/n/10.95 (\OT1/cmss/bx/n/10.95 k\OML/cmm/m/it/10.95 ; ^^L[]\OT1/cmss/m/n/10.95 )]
- []
-
-
-Overfull \vbox (1.56311pt too high) detected at line 342
- []
-
+File: picture/transformasi-blochWannier.png Graphic file (type png)
+<use picture/transformasi-blochWannier.png>
+Package pdftex.def Info: picture/transformasi-blochWannier.png  used on input line 347.
+(pdftex.def)             Requested size: 219.08743pt x 150.67896pt.
 
 Overfull \hbox (90.8287pt too wide) has occurred while \output is active
  [][][][] []  
@@ -2365,32 +2528,99 @@ Overfull \hbox (90.8287pt too wide) has occurred while \output is active
 [36
 
 ]
+Overfull \hbox (90.8287pt too wide) in paragraph at lines 367--367
+ [][][][] []  
+ []
 
-./main.tex:342: LaTeX Error: Unicode character π (U+03C0)
-               not set up for use with LaTeX.
+
+./main.tex:367: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.342 \end{frame}
+l.367 \end{frame}
                  
-You may provide a definition with
-\DeclareUnicodeCharacter 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./main.tex:367: Missing $ inserted.
+<inserted text> 
+                $
+l.367 \end{frame}
+                 
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./main.tex:367: Display math should end with $$.
+<to be read again> 
+                   \tex_par:D 
+l.367 \end{frame}
+                 
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+./main.tex:367: Missing $ inserted.
+<inserted text> 
+                $
+l.367 \end{frame}
+                 
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
 
-Overfull \hbox (36.80249pt too wide) detected at line 342
-\OML/cmm/m/it/10.95 ^^R \OT1/cmss/m/n/10.95 = [] [][] \OT1/cmss/m/it/10.95 d[]k \OML/cmm/m/it/10.95 ^^O[][] []
- []
+./main.tex:367: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.367 \end{frame}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./main.tex:367: Missing $ inserted.
+<inserted text> 
+                $
+l.367 \end{frame}
+                 
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
 
-Overfull \hbox (12.85013pt too wide) detected at line 342
-\OML/cmm/m/it/10.95 ^^R \OT1/cmss/m/n/10.95 = [] [][] \OT1/cmss/m/it/10.95 d\OML/cmm/m/it/10.95 ^^L[] [] \OT1/cmss/m/it/10.95 d[]k \OML/cmm/m/it/10.95 ^^O[][]\OT1/cmss/m/n/10.95 [\OMS/cmsy/m/n/10.95 F[]\OT1/cmss/m/n/10.95 (\OT1/cmss/bx/n/10.95 k\OML/cmm/m/it/10.95 ; ^^L[]\OT1/cmss/m/n/10.95 )\OMS/cmsy/m/n/10.95 F[]\OT1/cmss/m/n/10.95 (\OT1/cmss/bx/n/10.95 k\OML/cmm/m/it/10.95 ; ^^L[]\OT1/cmss/m/n/10.95 )]
- []
+./main.tex:367: LaTeX Error: Bad math environment delimiter.
 
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.367 \end{frame}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
-Overfull \vbox (1.56311pt too high) detected at line 342
- []
+./main.tex:367: Missing $ inserted.
+<inserted text> 
+                $
+l.367 \end{frame}
+                 
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./main.tex:367: Display math should end with $$.
+<to be read again> 
+                   \endgroup 
+l.367 \end{frame}
+                 
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
 
 
 Overfull \hbox (90.8287pt too wide) has occurred while \output is active
@@ -2400,12 +2630,95 @@ Overfull \hbox (90.8287pt too wide) has occurred while \output is active
 [37
 
 ]
-Overfull \hbox (90.8287pt too wide) in paragraph at lines 357--357
- [][][][] []  
- []
+
+./main.tex:367: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.367 \end{frame}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./main.tex:367: Missing $ inserted.
+<inserted text> 
+                $
+l.367 \end{frame}
+                 
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./main.tex:367: Display math should end with $$.
+<to be read again> 
+                   \tex_par:D 
+l.367 \end{frame}
+                 
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+./main.tex:367: Missing $ inserted.
+<inserted text> 
+                $
+l.367 \end{frame}
+                 
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
 
-LaTeX Warning: Citation 'Cole_Python_Tight_Binding_2025' on page 38 undefined on input line 357.
+./main.tex:367: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.367 \end{frame}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./main.tex:367: Missing $ inserted.
+<inserted text> 
+                $
+l.367 \end{frame}
+                 
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+./main.tex:367: LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.367 \end{frame}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./main.tex:367: Missing $ inserted.
+<inserted text> 
+                $
+l.367 \end{frame}
+                 
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./main.tex:367: Display math should end with $$.
+<to be read again> 
+                   \endgroup 
+l.367 \end{frame}
+                 
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
 
 
 Overfull \hbox (90.8287pt too wide) has occurred while \output is active
@@ -2415,9 +2728,95 @@ Overfull \hbox (90.8287pt too wide) has occurred while \output is active
 [38
 
 ]
-Overfull \hbox (90.8287pt too wide) in paragraph at lines 377--377
- [][][][] []  
- []
+
+./main.tex:367: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.367 \end{frame}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./main.tex:367: Missing $ inserted.
+<inserted text> 
+                $
+l.367 \end{frame}
+                 
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./main.tex:367: Display math should end with $$.
+<to be read again> 
+                   \tex_par:D 
+l.367 \end{frame}
+                 
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+./main.tex:367: Missing $ inserted.
+<inserted text> 
+                $
+l.367 \end{frame}
+                 
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+./main.tex:367: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.367 \end{frame}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./main.tex:367: Missing $ inserted.
+<inserted text> 
+                $
+l.367 \end{frame}
+                 
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+./main.tex:367: LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.367 \end{frame}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./main.tex:367: Missing $ inserted.
+<inserted text> 
+                $
+l.367 \end{frame}
+                 
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./main.tex:367: Display math should end with $$.
+<to be read again> 
+                   \endgroup 
+l.367 \end{frame}
+                 
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
 
 
 Overfull \hbox (90.8287pt too wide) has occurred while \output is active
@@ -2427,12 +2826,8 @@ Overfull \hbox (90.8287pt too wide) has occurred while \output is active
 [39
 
 ]
-Overfull \hbox (90.8287pt too wide) in paragraph at lines 430--430
+Overfull \hbox (90.8287pt too wide) in paragraph at lines 394--394
  [][][][] []  
- []
-
-
-Overfull \vbox (6.7061pt too high) detected at line 430
  []
 
 
@@ -2443,32 +2838,6 @@ Overfull \hbox (90.8287pt too wide) has occurred while \output is active
 [40
 
 ]
-Overfull \hbox (90.8287pt too wide) in paragraph at lines 476--476
- [][][][] []  
- []
-
-
-./main.tex:476: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.476 \end{frame}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (6.62074pt too wide) in paragraph at lines 476--476
- [][]\OT1/cmtt/m/n/10.95 Peta-spektrum.py 
- []
-
-
-Overfull \vbox (6.71132pt too high) detected at line 476
- []
-
-
 Overfull \hbox (90.8287pt too wide) has occurred while \output is active
  [][][][] []  
  []
@@ -2476,7 +2845,180 @@ Overfull \hbox (90.8287pt too wide) has occurred while \output is active
 [41
 
 ]
-Overfull \hbox (90.8287pt too wide) in paragraph at lines 483--483
+Overfull \hbox (90.8287pt too wide) has occurred while \output is active
+ [][][][] []  
+ []
+
+[42
+
+]
+Overfull \hbox (90.8287pt too wide) has occurred while \output is active
+ [][][][] []  
+ []
+
+[43
+
+]
+Overfull \hbox (90.8287pt too wide) in paragraph at lines 428--428
+ [][][][] []  
+ []
+
+
+./main.tex:428: LaTeX Error: Unicode character π (U+03C0)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.428 \end{frame}
+                 
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+Overfull \hbox (36.80249pt too wide) detected at line 428
+\OML/cmm/m/it/10.95 ^^R \OT1/cmss/m/n/10.95 = [] [][] \OT1/cmss/m/it/10.95 d[]k \OML/cmm/m/it/10.95 ^^O[][] []
+ []
+
+
+Overfull \hbox (12.85013pt too wide) detected at line 428
+\OML/cmm/m/it/10.95 ^^R \OT1/cmss/m/n/10.95 = [] [][] \OT1/cmss/m/it/10.95 d\OML/cmm/m/it/10.95 ^^L[] [] \OT1/cmss/m/it/10.95 d[]k \OML/cmm/m/it/10.95 ^^O[][]\OT1/cmss/m/n/10.95 [\OMS/cmsy/m/n/10.95 F[]\OT1/cmss/m/n/10.95 (\OT1/cmss/bx/n/10.95 k\OML/cmm/m/it/10.95 ; ^^L[]\OT1/cmss/m/n/10.95 )\OMS/cmsy/m/n/10.95 F[]\OT1/cmss/m/n/10.95 (\OT1/cmss/bx/n/10.95 k\OML/cmm/m/it/10.95 ; ^^L[]\OT1/cmss/m/n/10.95 )]
+ []
+
+
+Overfull \vbox (1.56311pt too high) detected at line 428
+ []
+
+
+Overfull \hbox (90.8287pt too wide) has occurred while \output is active
+ [][][][] []  
+ []
+
+[44
+
+]
+
+./main.tex:428: LaTeX Error: Unicode character π (U+03C0)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.428 \end{frame}
+                 
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+Overfull \hbox (36.80249pt too wide) detected at line 428
+\OML/cmm/m/it/10.95 ^^R \OT1/cmss/m/n/10.95 = [] [][] \OT1/cmss/m/it/10.95 d[]k \OML/cmm/m/it/10.95 ^^O[][] []
+ []
+
+
+Overfull \hbox (12.85013pt too wide) detected at line 428
+\OML/cmm/m/it/10.95 ^^R \OT1/cmss/m/n/10.95 = [] [][] \OT1/cmss/m/it/10.95 d\OML/cmm/m/it/10.95 ^^L[] [] \OT1/cmss/m/it/10.95 d[]k \OML/cmm/m/it/10.95 ^^O[][]\OT1/cmss/m/n/10.95 [\OMS/cmsy/m/n/10.95 F[]\OT1/cmss/m/n/10.95 (\OT1/cmss/bx/n/10.95 k\OML/cmm/m/it/10.95 ; ^^L[]\OT1/cmss/m/n/10.95 )\OMS/cmsy/m/n/10.95 F[]\OT1/cmss/m/n/10.95 (\OT1/cmss/bx/n/10.95 k\OML/cmm/m/it/10.95 ; ^^L[]\OT1/cmss/m/n/10.95 )]
+ []
+
+
+Overfull \vbox (1.56311pt too high) detected at line 428
+ []
+
+
+Overfull \hbox (90.8287pt too wide) has occurred while \output is active
+ [][][][] []  
+ []
+
+[45
+
+]
+
+./main.tex:428: LaTeX Error: Unicode character π (U+03C0)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.428 \end{frame}
+                 
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+Overfull \hbox (36.80249pt too wide) detected at line 428
+\OML/cmm/m/it/10.95 ^^R \OT1/cmss/m/n/10.95 = [] [][] \OT1/cmss/m/it/10.95 d[]k \OML/cmm/m/it/10.95 ^^O[][] []
+ []
+
+
+Overfull \hbox (12.85013pt too wide) detected at line 428
+\OML/cmm/m/it/10.95 ^^R \OT1/cmss/m/n/10.95 = [] [][] \OT1/cmss/m/it/10.95 d\OML/cmm/m/it/10.95 ^^L[] [] \OT1/cmss/m/it/10.95 d[]k \OML/cmm/m/it/10.95 ^^O[][]\OT1/cmss/m/n/10.95 [\OMS/cmsy/m/n/10.95 F[]\OT1/cmss/m/n/10.95 (\OT1/cmss/bx/n/10.95 k\OML/cmm/m/it/10.95 ; ^^L[]\OT1/cmss/m/n/10.95 )\OMS/cmsy/m/n/10.95 F[]\OT1/cmss/m/n/10.95 (\OT1/cmss/bx/n/10.95 k\OML/cmm/m/it/10.95 ; ^^L[]\OT1/cmss/m/n/10.95 )]
+ []
+
+
+Overfull \vbox (1.56311pt too high) detected at line 428
+ []
+
+
+Overfull \hbox (90.8287pt too wide) has occurred while \output is active
+ [][][][] []  
+ []
+
+[46
+
+]
+
+./main.tex:428: LaTeX Error: Unicode character π (U+03C0)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.428 \end{frame}
+                 
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+Overfull \hbox (36.80249pt too wide) detected at line 428
+\OML/cmm/m/it/10.95 ^^R \OT1/cmss/m/n/10.95 = [] [][] \OT1/cmss/m/it/10.95 d[]k \OML/cmm/m/it/10.95 ^^O[][] []
+ []
+
+
+Overfull \hbox (12.85013pt too wide) detected at line 428
+\OML/cmm/m/it/10.95 ^^R \OT1/cmss/m/n/10.95 = [] [][] \OT1/cmss/m/it/10.95 d\OML/cmm/m/it/10.95 ^^L[] [] \OT1/cmss/m/it/10.95 d[]k \OML/cmm/m/it/10.95 ^^O[][]\OT1/cmss/m/n/10.95 [\OMS/cmsy/m/n/10.95 F[]\OT1/cmss/m/n/10.95 (\OT1/cmss/bx/n/10.95 k\OML/cmm/m/it/10.95 ; ^^L[]\OT1/cmss/m/n/10.95 )\OMS/cmsy/m/n/10.95 F[]\OT1/cmss/m/n/10.95 (\OT1/cmss/bx/n/10.95 k\OML/cmm/m/it/10.95 ; ^^L[]\OT1/cmss/m/n/10.95 )]
+ []
+
+
+Overfull \vbox (1.56311pt too high) detected at line 428
+ []
+
+
+Overfull \hbox (90.8287pt too wide) has occurred while \output is active
+ [][][][] []  
+ []
+
+[47
+
+]
+Overfull \hbox (90.8287pt too wide) in paragraph at lines 443--443
+ [][][][] []  
+ []
+
+
+LaTeX Warning: Citation 'Cole_Python_Tight_Binding_2025' on page 48 undefined on input line 443.
+
+
+Overfull \hbox (90.8287pt too wide) has occurred while \output is active
+ [][][][] []  
+ []
+
+[48
+
+]
+Overfull \hbox (90.8287pt too wide) in paragraph at lines 463--463
  [][][][] []  
  []
 
@@ -2485,7 +3027,68 @@ Overfull \hbox (90.8287pt too wide) has occurred while \output is active
  [][][][] []  
  []
 
-[42
+[49
+
+]
+Overfull \hbox (90.8287pt too wide) in paragraph at lines 516--516
+ [][][][] []  
+ []
+
+
+Overfull \vbox (6.7061pt too high) detected at line 516
+ []
+
+
+Overfull \hbox (90.8287pt too wide) has occurred while \output is active
+ [][][][] []  
+ []
+
+[50
+
+]
+Overfull \hbox (90.8287pt too wide) in paragraph at lines 562--562
+ [][][][] []  
+ []
+
+
+./main.tex:562: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.562 \end{frame}
+                 
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (6.62074pt too wide) in paragraph at lines 562--562
+ [][]\OT1/cmtt/m/n/10.95 Peta-spektrum.py 
+ []
+
+
+Overfull \vbox (6.71132pt too high) detected at line 562
+ []
+
+
+Overfull \hbox (90.8287pt too wide) has occurred while \output is active
+ [][][][] []  
+ []
+
+[51
+
+]
+Overfull \hbox (90.8287pt too wide) in paragraph at lines 569--569
+ [][][][] []  
+ []
+
+
+Overfull \hbox (90.8287pt too wide) has occurred while \output is active
+ [][][][] []  
+ []
+
+[52
 
 ]
 \tf@nav=\write7
@@ -2518,21 +3121,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 33288 strings out of 475597
- 669115 string characters out of 5783340
+ 33319 strings out of 475597
+ 669615 string characters out of 5783340
  1939975 words of memory out of 5000000
- 54793 multiletter control sequences out of 15000+600000
+ 54805 multiletter control sequences out of 15000+600000
  569772 words of font info for 79 fonts, out of 8000000 for 9000
  309 hyphenation exceptions out of 8191
- 101i,20n,107p,677b,1279s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{Navigation44} has been referenced but does not exist, replaced by a fixed one
-
+ 101i,20n,107p,677b,1497s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (42 pages, 646374 bytes).
+Output written on main.pdf (52 pages, 1141311 bytes).
 PDF statistics:
- 635 PDF objects out of 1000 (max. 8388607)
- 444 compressed objects within 5 object streams
- 89 named destinations out of 1000 (max. 500000)
- 130 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 750 PDF objects out of 1000 (max. 8388607)
+ 535 compressed objects within 6 object streams
+ 108 named destinations out of 1000 (max. 500000)
+ 135 words of extra memory for PDF output out of 10000 (max. 10000000)
 
